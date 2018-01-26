@@ -10,9 +10,17 @@ class Author < ActiveRecord::Base
 
   def assign_period
     Period.all.each do |timeframe|
-      if self.birth_date >= timeframe.start_date && self.birth_date <= timeframe.end_date
+
+      if self.birth_date >= timeframe.start_date && self.death_date <= timeframe.end_date     # case 1
+        timeframe.authors << self
+      elsif self.birth_date >= timeframe.start_date && self.birth_date <= timeframe.end_date  # Case 2
         timeframe.authors << self
       end
+
+      if self.death_date >= timeframe.start_date && self.birth_date <= timeframe.start_date # Case 3
+        timeframe.authors << self
+      end
+
     end
   end
 end
