@@ -1,5 +1,6 @@
 class Book < ActiveRecord::Base
   include Slugifiable::InstanceMethods
+  extend Slugifiable::ClassMethods
   belongs_to :user
   belongs_to :author
   belongs_to :genre
@@ -13,4 +14,4 @@ class Book < ActiveRecord::Base
     total_years_alive = self.author.death_date - self.author.birth_date
     total_years_alive * 0.75
   end
-end  
+end

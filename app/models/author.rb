@@ -1,5 +1,6 @@
 class Author < ActiveRecord::Base
   include Slugifiable::InstanceMethods
+  extend Slugifiable::ClassMethods
   has_many :books
   has_many :author_locations
   has_many :locations, through: :author_locations
