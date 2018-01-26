@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 20180126172536) do
 
   create_table "books", force: :cascade do |t|
     t.string "year_published"
+    t.string "title"
     t.string "topics"
     t.integer "user_id"
     t.integer "genre_id"
