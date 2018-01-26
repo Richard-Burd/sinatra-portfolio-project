@@ -28,7 +28,7 @@ Author.create(name: "Aristotle", subjects: "Biology, Physics, Rhetoric, Politics
 Location.create(city: "Stagira", region: "Chalkidiki", polity: "Chalcidian League", today_part_of: "Greece")
 AuthorLocation.create(author_id: 6, location_id: 9)
 
-Author.create(name: "At-Tabari", subjects: "Qur'anic Commentary", birth_date: 839, death_date: 310)
+Author.create(name: "At-Tabari", subjects: "Qur'anic Commentary", birth_date: 839, death_date: 923)
 Location.create(city: "Amol", region: "Tabaristan", polity: "Abbasid Caliphate", today_part_of: "Iran")
 Location.create(city: "Baghdad", polity: "Abbasid Caliphate", today_part_of: "Iraq")
 AuthorLocation.create(author_id: 7, location_id: 10)
@@ -146,14 +146,14 @@ Period.create(name: "The Renaissance", start_date: 1453, end_date: 1600)
 Period.create(name: "Early Modern Period", start_date: 1600, end_date: 1900)
 Period.create(name: "Modern Period", start_date: 1900, end_date: 3000)
 
-#Author.find(1).assign_period
-#Author.find(2).assign_period
-#Author.find(3).assign_period
-#Author.find(4).assign_period
-#Author.find(5).assign_period
-#Author.find(6).assign_period
-#Author.find(7).assign_period
-#Author.find(8).assign_period
-#Author.find(9).assign_period
-#Author.find(10).assign_period
-#Author.find(11).assign_period
+Author.find(1).assign_period
+Author.find(2).assign_period
+Author.find(3).assign_period
+Author.find(4).assign_period
+Author.find(5).assign_period
+Author.find(6).assign_period
+Author.find(7).assign_period
+Author.find(8).assign_period
+Author.find(9).assign_period
+Author.find(10).assign_period
+Author.find(11).assign_period
