@@ -8,13 +8,9 @@ class Author < ActiveRecord::Base
   has_many :periods, through: :author_periods
   belongs_to :user
 
-
-  # This supposes a book with no publication date was
-  # written by its author in the last quarter of her
-  # or his lifetime
   def assign_period
-    Period.all each do |timeframe|
-      if self.birth_date >= timeframe.start_date || self.death_date <= timeframe.end_date
+    Period.all.each do |timeframe|
+      if self.birth_date >= timeframe.start_date && self.birth_date <= timeframe.end_date
         timeframe.authors << self
       end
     end

@@ -146,14 +146,14 @@ Period.create(name: "The Renaissance", start_date: 1453, end_date: 1600)
 Period.create(name: "Early Modern Period", start_date: 1600, end_date: 1900)
 Period.create(name: "Modern Period", start_date: 1900, end_date: 3000)
 
-#Author.find_by(1).assign_period
-#Author.find_by(2).assign_period
-#Author.find_by(3).assign_period
-#Author.find_by(4).assign_period
-#Author.find_by(5).assign_period
-#Author.find_by(6).assign_period
-#Author.find_by(7).assign_period
-#Author.find_by(8).assign_period
-#Author.find_by(9).assign_period
-#Author.find_by(10).assign_period
-#Author.find_by(11).assign_period
+#Author.find(1).assign_period
+#Author.find(2).assign_period
+#Author.find(3).assign_period
+#Author.find(4).assign_period
+#Author.find(5).assign_period
+#Author.find(6).assign_period
+#Author.find(7).assign_period
+#Author.find(8).assign_period
+#Author.find(9).assign_period
+#Author.find(10).assign_period
+#Author.find(11).assign_period
