@@ -45,7 +45,6 @@ ActiveRecord::Schema.define(version: 20180128042726) do
     t.string "title"
     t.string "topics"
     t.integer "user_id"
-    t.integer "genre_id"
     t.integer "author_id"
   end
 

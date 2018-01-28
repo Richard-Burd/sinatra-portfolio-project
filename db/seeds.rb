@@ -196,10 +196,10 @@ Book.create(title: "De Anima", topics: "A work in what might best be described a
 Book.create(title: "De Longitudine et Brevitate Vitae", topics: "A collection that discusses natural phenomena involving the body and the soul.", author_id: 6)
 Book.create(title: "Hexapla", topics: "A critical edition of the Hebrew Bible in six versions, four of them translated into Greek, preserved only in fragments.", author_id: 5)
 Book.create(title: "Philokalia", topics: "is an anthology of Origen's texts, probably compiled by Basil the Great and Gregory of Nazianzus.", author_id: 5)
-Book.create(title: "Commentary on Romans", author_id: 5, genre_id: 4)
+Book.create(title: "Commentary on Romans", author_id: 5)
 Book.create(title: "Summa Theologiae", topics: "One of the classics of the history of philosophy and one of the most influential works of Western literature.", author_id: 4, year_published: 1273)
 Book.create(title: "Summa contra Gentiles", topics: "Guide for (Christian) missionaries in explaining the Christian religion to and defending it against dissenting points of doctrine in Islam and Judaism.", author_id: 4, year_published: 1263)
-Book.create(title: "De enta et essentia", author_id: 4, year_published: 1256, genre_id: 4)
+Book.create(title: "De enta et essentia", author_id: 4, year_published: 1256)
 Book.create(title: "In libros De anima expositio", topics: "enter the topics here", author_id: 4, year_published: 1268)
 Book.create(title: "Bartenura on the Mishnah", topics: "Detailed discussion of Mishnayous with summaries from the Gemarrah", author_id: 3)
 Book.create(title: "Mishneh Torah", topics: "Fourteen books, subdivided into sections, chapters, and paragraphs. It is the only Medieval-era work that details all of Jewish observance, including those laws that are only applicable when the Holy Temple is in existence.", author_id: 2, year_published: 1180)
@@ -282,3 +282,6 @@ Author.find(8).assign_period
 Author.find(9).assign_period
 Author.find(10).assign_period
 Author.find(11).assign_period
+
+Author.create(name: "Guy who lived between the eras", subjects: "This guy was created in the database simply to test the 'hypothetical_date_of_publication' located in the 'Book' class model", birth_date: -40, death_date: 60)
+Book.create(title: "A Book Written Between the Eras", topics: "This book was created in the database simply to test the 'hypothetical_date_of_publication' located in the 'Book' class model", author_id: 12)
