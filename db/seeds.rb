@@ -76,7 +76,7 @@ BookGenre.create(book_id: 1, genre_id: 15)
 
 BookGenre.create(book_id: 2, genre_id: 7)
 BookGenre.create(book_id: 2, genre_id: 10)
-BookGenre.create(book_id: 1, genre_id: 15)
+BookGenre.create(book_id: 2, genre_id: 15)
 
 BookGenre.create(book_id: 3, genre_id: 7)
 BookGenre.create(book_id: 3, genre_id: 10)
@@ -116,10 +116,6 @@ BookGenre.create(book_id: 10, genre_id: 9)
 BookGenre.create(book_id: 11, genre_id: 6)
 BookGenre.create(book_id: 11, genre_id: 9)
 BookGenre.create(book_id: 11, genre_id: 14)
-
-BookGenre.create(book_id: 12, genre_id: 3)
-BookGenre.create(book_id: 12, genre_id: 6)
-BookGenre.create(book_id: 12, genre_id: 9)
 
 BookGenre.create(book_id: 12, genre_id: 3)
 BookGenre.create(book_id: 12, genre_id: 6)
