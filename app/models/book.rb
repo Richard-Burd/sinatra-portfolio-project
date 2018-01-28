@@ -3,7 +3,8 @@ class Book < ActiveRecord::Base
   extend Slugifiable::ClassMethods
   belongs_to :user
   belongs_to :author
-  belongs_to :genre
+  has_many :book_genres
+  has_many :genres, through: :book_genres
   has_many :book_languages
   has_many :languages, through: :book_languages
 
