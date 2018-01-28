@@ -8,10 +8,5 @@ module Displays
         number.abs.to_s + " B.C.E."
       end
     end
-
-    # This will
-    def display_start_date
-
-    end
   end
 end
