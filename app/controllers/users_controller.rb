@@ -16,6 +16,7 @@ class UsersController < ApplicationController
 
   post '/signup' do
     # raise params.inspect
+    # params = {"username"=>"Akiva", "email"=>"akiva@yahoo.com", "password"=>"qwerty"}
     # params = {"username"=>"Nancy", "email"=>"nancy@yahoo.com", "password"=>"asdf"}
     if params[:username] == "" || params[:email] == "" || params[:password] == ""
       "Sorry, can you go back and fill out all three fields: Name, email, and password?"

@@ -7,4 +7,12 @@ class AuthorsController < ApplicationController
       redirect to '/login'
     end
   end
+
+  get '/authors/new' do
+    if logged_in?
+      erb :'authors/create_author'
+    else
+      redirect to '/login'
+    end
+  end
 end

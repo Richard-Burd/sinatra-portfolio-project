@@ -12,10 +12,11 @@
     <nav>
       <% if logged_in? %>
 
-        <b><a href="/tweets/new"> Create Tweet </a></b>
+        <b><a href="/books/new">&emsp; Add a new book to the catalog </a></b>
+        <b><a href="/authors/new">&emsp; &emsp; Add a new author to the catalog </a></b>
         <b><a href="/logout">&emsp; &emsp; &emsp; &emsp; Log Out </a></b>
         <p>
-          <p1 style="font-size:220%; font-family:verdana; color: grey;">Welcome, <%=current_user.username %></p1>
+          <p1 style="font-size:220%; font-family:verdana; color: grey;">&emsp; Welcome, <%=current_user.username %></p1>
         </p>
       <% else %>
         <b><a href="/signup"> Sign Up </a></b>
