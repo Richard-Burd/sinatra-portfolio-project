@@ -14,7 +14,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/library' do
-    erb :library
+    erb :library, :layout => :library_layout
   end
 
   helpers do
