@@ -16,10 +16,18 @@
       <ul>
         <% @author.periods.each do |timeframe| %><br>
             <li style="font-size:80%"><b><%= "#{timeframe.name}:" %></b> &emsp; <%= "begins in #{display_date_as_bce_or_ce(timeframe.start_date)} and ends in #{display_date_as_bce_or_ce(timeframe.end_date)}" %></li>
-           <br>
         <% end %>
       </ul>
   </h3>
 
+<br></br>
+  <h3>This author lived in the following <a href="/locations">locations(s):</a>
+      <ul>
+        <% @author.locations.each do |locale| %><br>
+            <li style="font-size:80%"><b><%= "#{locale.city}:" %></b> &emsp; <%= "today part of #{locale.today_part_of} in the region of #{locale.region} when it was part of the #{locale.polity}." %></li>
+        <% end %>
+      </ul>
+  </h3>
 
+<br></br>
 <p style="font-size:170%"><a href="/authors">Click here to return to the authors index</a></p>

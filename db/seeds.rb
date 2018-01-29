@@ -125,6 +125,7 @@ BookGenre.create(book_id: 12, genre_id: 13)
 BookGenre.create(book_id: 13, genre_id: 3)
 BookGenre.create(book_id: 13, genre_id: 6)
 BookGenre.create(book_id: 13, genre_id: 9)
+BookGenre.create(book_id: 13, genre_id: 13)
 
 BookGenre.create(book_id: 14, genre_id: 3)
 BookGenre.create(book_id: 14, genre_id: 6)
@@ -283,5 +284,5 @@ Author.find(9).assign_period
 Author.find(10).assign_period
 Author.find(11).assign_period
 
-Author.create(name: "Guy who lived between the eras", subjects: "This guy was created in the database simply to test the 'hypothetical_date_of_publication' located in the 'Book' class model", birth_date: -40, death_date: 60)
-Book.create(title: "A Book Written Between the Eras", topics: "This book was created in the database simply to test the 'hypothetical_date_of_publication' located in the 'Book' class model", author_id: 12)
+Author.create(name: "Some Guy named Brian", subjects: "This guy was created in the database simply to test the 'hypothetical_date_of_publication' located in the 'Book' class model", birth_date: -40, death_date: 60)
+Book.create(title: "My Life, The Life of Brian", topics: "This book was created in the database simply to test the 'hypothetical_date_of_publication' located in the 'Book' class model", author_id: 12)

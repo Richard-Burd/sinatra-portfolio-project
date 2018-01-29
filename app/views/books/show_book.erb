@@ -1,11 +1,14 @@
 <h1> <%= @book.title %> </h1>
 
 <%= @book.author.name %>
+
+
 <% if @book.year_published != nil %>
   <%= @book.year_published %>
 <% else %>
   <%= @book.hypothetical_date_of_publication %>
 <% end %>
+
 
 <%= @book.topics %>
 
@@ -16,6 +19,16 @@
       <% langs = @book.languages.map {|logos| logos.name} %>
       <% langs.each do |lashen| %><br>
           <li style="font-size:80%"><%= lashen %></li>
+      <% end %>
+    </ul>
+</h3>
+
+<br></br>
+<br></br>
+<h3>This book is part of the following library <a href="/genres">genres(s):</a>
+    <ul>
+      <% @book.genres.each do |genre| %><br>
+          <li style="font-size:80%"><%= genre.name %></li>
       <% end %>
     </ul>
 </h3>
