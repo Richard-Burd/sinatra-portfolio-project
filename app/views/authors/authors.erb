@@ -1,7 +1,8 @@
 <h1>Authors</h1>
 
-<% @authors.each do |author| %>
-  <%= author.name %>
+<ol>
+<% myarray = @authors.sort_by {|obj| obj.name} %>
+<% myarray.each do |author| %>
+<li><%= author.name %></li>
 <% end %>
-
- 
+</ol>
