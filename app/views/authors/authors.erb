@@ -1,9 +1,10 @@
 <h1>Authors</h1>
 <br>
-<ol style="font-size:140%">
-<% myarray = @authors.sort_by {|obj| obj.name} %>
-<% myarray.each do |author| %>
-<li><b><%= author.name %></b> <%= " lived from " + display_date_as_bce_or_ce(author.birth_date) + " to " + display_date_as_bce_or_ce(author.death_date) %></li>
-<br>
-<% end %>
-</ol>
+  <ol style="font-size:140%">
+    <% myarray = @authors.sort_by {|obj| obj.name} %>
+      <% myarray.each do |author| %>
+      <li><b><a href="/authors/<%=author.slug%>"><%= author.name %></b> <%= " lived from " + display_date_as_bce_or_ce(author.birth_date) + " to " + display_date_as_bce_or_ce(author.death_date) %></li>
+        <ul style="font-size:80%"><%= author.subjects %><a></ul>
+      <br>
+      <% end %>
+  </ol>

@@ -9,5 +9,10 @@ module Slugifiable
     def slug
       self.name.downcase.gsub(" ","-")
     end
+
+    # This one is for books since books have a "title" whereas authors have a "name."
+    def slugtitle
+      self.title.downcase.gsub(" ","-")
+    end
   end
 end

@@ -1,1 +1,7 @@
-<h1> This is where you'll view a single author </h1>
+<h2> Books written by <%=@author.name%>:
+  <ul>
+  <%@author.books.each do |book|%>
+    <li><a href="/books/<%=book.slugtitle%>"><%=book.title%></a></li>
+  <%end%>
+  </ul>
+</h4>
