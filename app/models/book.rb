@@ -20,9 +20,9 @@ class Book < ActiveRecord::Base
       end
       probable_start_date = total_years_alive * 0.75 + self.author.birth_date
       probable_end_date = self.author.death_date - 2
-      "A.) Probably between #{display_date_as_bce_or_ce(probable_start_date.round)} and #{display_date_as_bce_or_ce(probable_end_date)}"
+      "Probably published between #{display_date_as_bce_or_ce(probable_start_date.round)} and #{display_date_as_bce_or_ce(probable_end_date)}"
     else
-      "B.) Probably between #{display_date_as_bce_or_ce(self.author.birth_date)} and #{display_date_as_bce_or_ce(self.author.death_date)}"
+      "Probably published between #{display_date_as_bce_or_ce(self.author.birth_date)} and #{display_date_as_bce_or_ce(self.author.death_date)}"
     end
   end
 end

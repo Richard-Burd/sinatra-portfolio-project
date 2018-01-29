@@ -1,1 +1,10 @@
-<h1> This is going to be a list of all books </h1>
+<h1>Books</h1>
+<br>
+  <ol style="font-size:140%">
+    <% myarray = @books.sort_by {|obj| obj.title} %>
+      <% myarray.each do |book| %>
+      <li><b><a href="/books/<%=book.slugtitle%>"><%= book.title %></b></li>
+        <ul> <a style="font-size:80%"><%= book.topics %><a></ul>
+      <br>
+      <% end %>
+  </ol>

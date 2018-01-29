@@ -3,8 +3,8 @@
   <ol style="font-size:140%">
     <% myarray = @authors.sort_by {|obj| obj.name} %>
       <% myarray.each do |author| %>
-      <li><b><a href="/authors/<%=author.slug%>"><%= author.name %></b> <%= " lived from " + display_date_as_bce_or_ce(author.birth_date) + " to " + display_date_as_bce_or_ce(author.death_date) %></li>
-        <ul style="font-size:80%"><%= author.subjects %><a></ul>
+      <li><b><a href="/authors/<%=author.slug%>"><%= author.name %></a></b> <%= " lived from " + display_date_as_bce_or_ce(author.birth_date) + " to " + display_date_as_bce_or_ce(author.death_date) %></li>
+        <ul style="font-size:80%">Subjects covered:  <%= author.subjects %></ul>
       <br>
       <% end %>
   </ol>

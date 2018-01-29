@@ -1,1 +1,21 @@
-<h1> This is where you'll view a single book </h1>
+<h1> <%= @book.title %> </h1>
+
+<%= @book.author.name %>
+<% if @book.year_published != nil %>
+  <%= @book.year_published %>
+<% else %>
+  <%= @book.hypothetical_date_of_publication %>
+<% end %>
+
+<%= @book.topics %>
+
+<br></br>
+<br></br>
+<h3>This book was originally written in the following <a href="/languages">languages(s):</a>
+    <ul>
+      <% langs = @book.languages.map {|logos| logos.name} %>
+      <% langs.each do |lashen| %><br>
+          <li style="font-size:80%"><%= lashen %></li>
+      <% end %>
+    </ul>
+</h3>
