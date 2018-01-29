@@ -16,16 +16,20 @@
         <b><a href="/authors/new">&emsp; &emsp; Add a new author to the catalog </a></b>
         <b><a href="/logout">&emsp; &emsp; &emsp; &emsp; Log Out </a></b>
         <p>
-          <p1 style="font-size:220%; font-family:verdana; color: grey;">&emsp; Welcome, <%=current_user.username %></p1>
+          <p1 style="font-size:220%; font-family:verdana; color: grey;">&emsp; Burd Antiquities Library</p1>
+          <p1 style="font-size:170%; font-family:verdana; color: grey;">&emsp; &emsp; &emsp; &emsp; Welcome, <%=current_user.username %></p1>
         </p>
       <% else %>
         <b><a href="/signup"> Sign Up </a></b>
         <b><a href="/login">&emsp; &emsp; &emsp; &emsp; Sign In </a></b>
+        <p>
+          <p1 style="font-size:220%; font-family:verdana; color: grey;">&emsp; Burd Antiquities Library</p1>
+          <p1 style="font-size:170%; font-family:verdana; color: grey;">&emsp; &emsp; &emsp; &emsp; Welcome, Guest</p1>
+        </p>
       <%end %>
 
     </nav>
     <div class="container">
-      <h1>Burd Antiquities Library</h1>
       <%= yield %>
 
 

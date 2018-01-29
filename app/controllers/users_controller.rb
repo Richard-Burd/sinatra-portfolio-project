@@ -22,7 +22,7 @@ class UsersController < ApplicationController
       "Sorry, can you go back and fill out all three fields: Name, email, and password?"
       # redirect to '/signup'
     elsif logged_in?
-      redirect to '/tweets'
+      redirect to '/library'
     elsif
       user = User.find_by(:username => params[:username])
       if
@@ -34,7 +34,7 @@ class UsersController < ApplicationController
       @user = User.new(:username => params[:username], :email => params[:email], :password => params[:password])
       @user.save
       session[:user_id] = @user.id
-      redirect to '/tweets'
+      redirect to '/library'
     end
   end
 
@@ -43,7 +43,7 @@ class UsersController < ApplicationController
     if !logged_in?
       erb :'users/login'
     else
-      redirect '/tweets'
+      redirect '/library'
     end
   end
 
@@ -51,7 +51,7 @@ class UsersController < ApplicationController
     user = User.find_by(:username => params[:username])
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id
-      redirect "/tweets"
+      redirect "/library"
     else
       erb :'users/login_error'
     end

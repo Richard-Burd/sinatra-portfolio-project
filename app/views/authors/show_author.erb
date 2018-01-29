@@ -1,7 +1,9 @@
 <h2> Books written by <%=@author.name%>:
   <ul>
   <%@author.books.each do |book|%>
-    <li><a href="/books/<%=book.slugtitle%>"><%=book.title%></a></li>
+    <li><%=book.title%></li>
   <%end%>
   </ul>
 </h4>
+
+<a href="/authors">Click here to return to the authors index</a>
