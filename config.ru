@@ -10,4 +10,6 @@ use AuthorsController
 use BooksController
 use PeriodsController
 use LanguagesController
+use LocationsController
+use GenresController
 run ApplicationController

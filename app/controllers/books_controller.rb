@@ -6,4 +6,8 @@ class BooksController < ApplicationController
       redirect to '/login'
     end
   end
+
+  get '/books' do
+    erb :'books/books'
+  end
 end

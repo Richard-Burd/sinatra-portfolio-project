@@ -8,6 +8,10 @@ class AuthorsController < ApplicationController
     end
   end
 
+  get '/authors' do
+    erb :'authors/authors'
+  end
+
   get '/authors/new' do
     if logged_in?
       erb :'authors/create_author'
