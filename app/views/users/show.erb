@@ -1,0 +1,12 @@
+
+
+<% if @user.id == session[:user_id] %>
+  <p> Here are your tweets, <%= @user.username %>
+<% else %>
+  <p> <h2>Here are all the tweets written by <%= @user.username %>:</h2>
+<% end %>
+<% @user.tweets.each do |tweet| %>
+  <div>
+    <%= tweet.content %>
+  </div>
+<% end %>

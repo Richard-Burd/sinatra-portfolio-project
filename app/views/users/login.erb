@@ -1,0 +1,27 @@
+<!--
+OK so this is called "login.erb" but that's kinda crappy cause 'signing-up' for the first time
+is totally different than 'logging-in' as a returning user and besides, the whole program is messed up
+cause if you don't logout, the cookies will remember you and let you login again & create a whole
+second user if you were to just copy & paste the "solution" branch from GitHub.  So since the
+program sucks as is, I'm going to first off fix this whole mess so that:
+
+  a.) When you try & sign-up with the same username and email address as an existing user, you'll be prompted to
+      either change your username or email address; otherwise you can troll the board by impersonating another user.
+
+  b.) When you try & URL hack the program (by going to, say, '/tweets/4/edit') you will get a notice basically
+      saying that you don't have permission to edit that particular tweet.
+
+-->
+
+<h2>Users</h2>
+
+<% unless locals.empty? %>
+  <%= message %>
+<% end %>
+
+<h3>Sign in below if you're a current user</h3>
+<form action="/login" method="POST">
+  <p>Name: <input type="text" name="username"></p>
+  <p>Password: <input type="text" name="password"></p>
+  <input class="btn btn-primary" type="submit" value="submit">
+</form>

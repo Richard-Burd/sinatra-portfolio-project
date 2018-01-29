@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Burd Antiquities Library</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <!-- <style> nav {background: #fbff9c} </style> -->
+    <style> nav {background: linear-gradient(to right, #fbff9c , white)}</style>
+    <nav>
+      <% if logged_in? %>
+
+        <b><a href="/tweets/new"> Create Tweet </a></b>
+        <b><a href="/logout">&emsp; &emsp; &emsp; &emsp; Log Out </a></b>
+        <p>
+          <p1 style="font-size:220%; font-family:verdana; color: grey;">Welcome, <%=current_user.username %></p1>
+        </p>
+      <% else %>
+        <b><a href="/signup"> Sign Up </a></b>
+        <b><a href="/login">&emsp; &emsp; &emsp; &emsp; Sign In </a></b>
+      <%end %>
+
+    </nav>
+    <div class="container">
+      <h1>Burd Antiquities Library</h1>
+      <%= yield %>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<br></br>
+<a href="/tweets">Click here to see all of the tweets</a>
+  </body>
+</html>
