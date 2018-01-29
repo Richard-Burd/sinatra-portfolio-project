@@ -1,8 +1,9 @@
 <h1>Authors</h1>
-
-<ol>
+<br>
+<ol style="font-size:140%">
 <% myarray = @authors.sort_by {|obj| obj.name} %>
 <% myarray.each do |author| %>
-<li><%= author.name %></li>
+<li><b><%= author.name %></b> <%= " lived from " + display_date_as_bce_or_ce(author.birth_date) + " to " + display_date_as_bce_or_ce(author.death_date) %></li>
+<br>
 <% end %>
 </ol>
