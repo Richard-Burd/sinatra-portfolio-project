@@ -6,8 +6,8 @@
   <ol style="font-size:160%">
     <% myarray = @author.books.sort_by {|obj| obj.title} %>
       <% myarray.each do |book| %>
-      <li><b><a href="/books/<%=book.slugtitle%>"><%= book.title %><a></b></li>
-        <ul> <a style="font-size:80%"><%= book.topics %></a></ul>
+      <li><b><a href="/books/<%=book.slugtitle%>"><%= book.title %></a></b></li>
+        <ul style="font-size:80%"><%= book.topics %></ul>
       <br>
       <% end %>
   </ol>
@@ -24,7 +24,11 @@
   <h3>This author lived in the following <a href="/locations">locations(s):</a>
       <ul>
         <% @author.locations.each do |locale| %><br>
-            <li style="font-size:80%"><b><%= "#{locale.city}:" %></b> &emsp; <%= "today part of #{locale.today_part_of} in the region of #{locale.region} when it was part of the #{locale.polity}." %></li>
+          <% if locale.region != nil %>
+            <li style="font-size:80%"><b><%= "#{locale.city}:" %></b> &emsp; <%= "today part of #{locale.today_part_of}; in the region of #{locale.region}, when it was part of the #{locale.polity}." %></li>
+          <% else %>
+            <li style="font-size:80%"><b><%= "#{locale.city}:" %></b> &emsp; <%= "today part of #{locale.today_part_of}; when it was part of the #{locale.polity}." %></li>
+          <% end %>
         <% end %>
       </ul>
   </h3>

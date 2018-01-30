@@ -72,16 +72,16 @@ Genre.create(name: "Text Translations")
 
 BookGenre.create(book_id: 1, genre_id: 7)
 BookGenre.create(book_id: 1, genre_id: 10)
-BookGenre.create(book_id: 1, genre_id: 15)
+BookGenre.create(book_id: 1, genre_id: 14)
 
 BookGenre.create(book_id: 2, genre_id: 7)
 BookGenre.create(book_id: 2, genre_id: 10)
-BookGenre.create(book_id: 2, genre_id: 15)
+BookGenre.create(book_id: 2, genre_id: 14)
 
 BookGenre.create(book_id: 3, genre_id: 7)
 BookGenre.create(book_id: 3, genre_id: 10)
 BookGenre.create(book_id: 3, genre_id: 11)
-BookGenre.create(book_id: 3, genre_id: 15)
+BookGenre.create(book_id: 3, genre_id: 14)
 
 BookGenre.create(book_id: 4, genre_id: 7)
 BookGenre.create(book_id: 4, genre_id: 11)
@@ -148,7 +148,7 @@ BookGenre.create(book_id: 18, genre_id: 3)
 BookGenre.create(book_id: 18, genre_id: 4)
 BookGenre.create(book_id: 18, genre_id: 5)
 BookGenre.create(book_id: 18, genre_id: 8)
-BookGenre.create(book_id: 18, genre_id: 15)
+BookGenre.create(book_id: 18, genre_id: 14)
 
 BookGenre.create(book_id: 19, genre_id: 5)
 BookGenre.create(book_id: 19, genre_id: 8)

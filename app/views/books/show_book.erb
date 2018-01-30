@@ -1,20 +1,21 @@
 <h1> <%= @book.title %> </h1>
 
-<%= @book.author.name %>
+<h3>
+<p>Written by: <a href="/authors/<%= @book.author.slug %>"><%= @book.author.name %></a><p>
+</h3>
 
-
+<p style="font-size:120%">
 <% if @book.year_published != nil %>
   <%= @book.year_published %>
 <% else %>
   <%= @book.hypothetical_date_of_publication %>
 <% end %>
+</p>
 
-
-<%= @book.topics %>
+<p style="font-size:120%"><b>Description:</b> <%= @book.topics %></p>
 
 <br></br>
-<br></br>
-<h3>This book was originally written in the following <a href="/languages">languages(s):</a>
+<h3>This book was originally written in the following <a href="/languages">language(s):</a>
     <ul>
       <% langs = @book.languages.map {|logos| logos.name} %>
       <% langs.each do |lashen| %><br>
@@ -24,8 +25,7 @@
 </h3>
 
 <br></br>
-<br></br>
-<h3>This book is part of the following library <a href="/genres">genres(s):</a>
+<h3>This book is part of the following library <a href="/genres">genre(s):</a>
     <ul>
       <% @book.genres.each do |genre| %><br>
           <li style="font-size:80%"><%= genre.name %></li>
