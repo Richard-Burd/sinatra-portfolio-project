@@ -289,3 +289,7 @@ Book.create(title: "My Life, The Life of Brian", topics: "This book was created 
 
 User.create(username: "Tom" email: "tom@yahoo.com" password: "secret")
 User.create(username: "Nancy" email: "nancy@yahoo.com" password: "asdf")
+
+Book.all.each do |book|
+  book.unknown_author
+end

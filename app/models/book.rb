@@ -1,6 +1,7 @@
 class Book < ActiveRecord::Base
   include Slugifiable::InstanceMethods
   extend Slugifiable::ClassMethods
+  include UnknownAuthor::InstanceMethods
   belongs_to :user
   belongs_to :author
   has_many :book_genres
