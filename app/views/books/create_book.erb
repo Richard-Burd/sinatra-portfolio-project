@@ -1,1 +1,32 @@
-<h1> This is where you'll create a new book </h1>
+<h1> Create a new Book </h1>
+
+<form action="/books/new/book/address/here" method="POST">
+  <label>Book Title:</label>
+  <input type="text" name="book[title]" id="book_title">
+  <br></br>
+  <label>Brief description of what the book is about:</label>
+  <input type="text" name="book[topics]" id="book_topics">
+  <br></br>
+  <label>Year the book was published:</label>
+  <input type="text" name="book[title]" id="book_title">
+  <br></br>
+
+<h3> Select from the list of authors below or <a href="/authors/new">create a new author for this book</a></h3>
+<% myarray = @authors.sort_by {|obj| obj.name} %>
+  <ol style="font-size:120%; color: grey">
+    <%myarray.each.each do |author|%>
+        <li><b><input type="checkbox" name="book[author_id]" id="<%= author.name %>" value="<%=author.id%>">  <%=author.name%>&emsp;&emsp;&emsp;</input></b></li>
+    <%end%>
+  </ol>
+<br></br>
+<br></br>
+
+  <input type="submit" value="Create Book">
+</form>
+
+
+
+<!--
+This is where you'll see how to insert the checkboxes for existing Authors:
+https://github.com/Richard-Burd/sinatra-complex-forms-associations-v-000/blob/solution/app/views/pets/new.erb
+-->
