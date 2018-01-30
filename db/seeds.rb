@@ -287,8 +287,8 @@ Author.find(11).assign_period
 Author.create(name: "Brian Cohen", subjects: "First Century Humor", birth_date: -40, death_date: 60)
 Book.create(title: "My Life, The Life of Brian", topics: "This book was created in the database in order to test the 'hypothetical_date_of_publication' located in the 'Book' class model", author_id: 12)
 
-User.create(username: "Tom" email: "tom@yahoo.com" password: "secret")
-User.create(username: "Nancy" email: "nancy@yahoo.com" password: "asdf")
+User.create(username: "Tom", email: "tom@yahoo.com", password: "secret")
+User.create(username: "Nancy", email: "nancy@yahoo.com", password: "asdf")
 
 Book.all.each do |book|
   book.unknown_author

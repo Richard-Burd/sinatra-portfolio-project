@@ -4,7 +4,13 @@
     <% myarray = @authors.sort_by {|obj| obj.name} %>
       <% myarray.each do |author| %>
       <li><b><a href="/authors/<%=author.slug%>"><%= author.name %></a></b> <%= " lived from " + display_date_as_bce_or_ce(author.birth_date) + " to " + display_date_as_bce_or_ce(author.death_date) %></li>
-        <ul style="font-size:80%">Subjects covered:  <%= author.subjects %></ul>
+        <% if author.subjects == nil && author.books.count > 1 %>
+          <ul style="font-size:80%">No subject data for this author is currently available</ul>
+        <% elsif author.subjects == nil && author.books.count == 1 %>
+          <ul style="font-size:80%">About this book:  <%= author.books[0].topics %></ul>
+        <% else %>
+          <ul style="font-size:80%">Subjects covered:  <%= author.subjects %></ul>
+        <% end %>
       <br>
       <% end %>
   </ol>
