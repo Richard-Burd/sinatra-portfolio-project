@@ -12,7 +12,7 @@ class Book < ActiveRecord::Base
   # written by its author in the last quarter of her
   # or his lifetime
   def hypothetical_date_of_publication
-    if self.author.name != "unknown" && self.author.name != "Unknown" && self.author.name != nil
+    if !self.author.name.include?("unknown") && !self.author.name.include?("Unknown") && self.author.name != nil
       if self.author.birth_date.negative? && self.author.death_date.positive?
         total_years_alive = self.author.death_date + self.author.birth_date
       else

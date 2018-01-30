@@ -6,7 +6,7 @@
 
 <p style="font-size:120%">
 <% if @book.year_published != nil %>
-  <%= @book.year_published %>
+  Published in <%= display_date_as_bce_or_ce(@book.year_published.to_i) %>
 <% else %>
   <%= @book.hypothetical_date_of_publication %>
 <% end %>
