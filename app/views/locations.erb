@@ -9,7 +9,7 @@
     <% else %>
     <li style="font-size:200%">
       <%= location.region %>
-    <b><ul style="font-size:60%; color: grey;"> when it was part of the <%= location.polity %>.  Today, this city is located in <%= location.today_part_of %>.</ul></b>
+    <b><ul style="font-size:60%; color: grey;"> ...when it was part of the <%= location.polity %>.  Today, this region is part of <%= location.today_part_of %>.</ul></b>
     <% end %>
     <% location.authors.each do |author| %>
       <ul style="font-size:70%">&emsp;<a href="/authors/<%=author.slug%>"><%= author.name %></a></ul>

@@ -1,1 +1,14 @@
-<h1> This is going to be a list of all languages in the catalog </h1>
+<h1> Original Languages of the Books in the Catalog </h1>
+<h3>
+  <ol>
+    <% Language.all.each do |language| %>
+      <li style="font-size:110%"><%= language.name %></li>
+        <ul>
+          <% language.books.each do |book| %>
+            <li style="font-size:90%"><a href="/books/<%=book.slugtitle%>"><%= book.title %></a></li>
+          <% end %>
+          <br>
+        </ul>
+    <% end %>
+  </ol>
+</h3>
