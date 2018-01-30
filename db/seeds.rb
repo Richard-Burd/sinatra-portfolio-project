@@ -107,7 +107,7 @@ BookGenre.create(book_id: 8, genre_id: 4)
 
 BookGenre.create(book_id: 9, genre_id: 6)
 BookGenre.create(book_id: 9, genre_id: 9)
-BookGenre.create(book_id: 9, genre_id: 16)
+BookGenre.create(book_id: 9, genre_id: 15)
 
 BookGenre.create(book_id: 10, genre_id: 3)
 BookGenre.create(book_id: 10, genre_id: 6)
@@ -115,7 +115,7 @@ BookGenre.create(book_id: 10, genre_id: 9)
 
 BookGenre.create(book_id: 11, genre_id: 6)
 BookGenre.create(book_id: 11, genre_id: 9)
-BookGenre.create(book_id: 11, genre_id: 14)
+BookGenre.create(book_id: 11, genre_id: 13)
 
 BookGenre.create(book_id: 12, genre_id: 3)
 BookGenre.create(book_id: 12, genre_id: 6)
@@ -137,7 +137,7 @@ BookGenre.create(book_id: 15, genre_id: 9)
 
 BookGenre.create(book_id: 16, genre_id: 5)
 BookGenre.create(book_id: 16, genre_id: 8)
-BookGenre.create(book_id: 16, genre_id: 14)
+BookGenre.create(book_id: 16, genre_id: 12)
 
 BookGenre.create(book_id: 17, genre_id: 3)
 BookGenre.create(book_id: 17, genre_id: 5)
@@ -161,13 +161,11 @@ BookGenre.create(book_id: 20, genre_id: 13)
 BookGenre.create(book_id: 21, genre_id: 5)
 BookGenre.create(book_id: 21, genre_id: 8)
 BookGenre.create(book_id: 21, genre_id: 12)
-BookGenre.create(book_id: 21, genre_id: 14)
 
 BookGenre.create(book_id: 22, genre_id: 2)
 BookGenre.create(book_id: 22, genre_id: 5)
 BookGenre.create(book_id: 22, genre_id: 8)
 BookGenre.create(book_id: 22, genre_id: 12)
-BookGenre.create(book_id: 22, genre_id: 14)
 
 BookGenre.create(book_id: 23, genre_id: 5)
 BookGenre.create(book_id: 23, genre_id: 8)
@@ -184,7 +182,7 @@ BookGenre.create(book_id: 25, genre_id: 12)
 
 BookGenre.create(book_id: 26, genre_id: 5)
 BookGenre.create(book_id: 26, genre_id: 8)
-BookGenre.create(book_id: 26, genre_id: 16)
+BookGenre.create(book_id: 26, genre_id: 15)
 
 
 Book.create(title: "Matnawiye Ma'nawi", topics: "A series of six books of poetry that together amount to around 25,000 verses.", author_id: 8)

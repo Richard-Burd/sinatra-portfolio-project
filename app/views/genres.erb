@@ -1,1 +1,14 @@
-<h1> This is going to be a list of all the genres in the catalog </h1>
+<h1> Genres of Books in the Catalog </h1>
+<h3>
+  <ol>
+    <% Genre.all.each do |genre| %>
+      <li style="font-size:110%"><%= genre.name %></li>
+        <ul>
+          <% genre.books.each do |book| %>
+            <li style="font-size:90%"><a href="/books/<%=book.slugtitle%>"><%= book.title %></a></li>
+          <% end %>
+          <br>
+        </ul>
+    <% end %>
+  </ol>
+</h3>
