@@ -1,1 +1,15 @@
-<h1> This is going to be a list of all time periods in chronological order </h1>
+<h1> Historical Periods Included in the Catalog </h1>
+<ol>
+<% Period.all.each do |period| %>
+  <% if period.authors.count > 0 %>
+    <li style="font-size:200%">
+      <%= period.name %>
+      <b><ul style="font-size:60%; color: grey;"><%= display_date_as_bce_or_ce(period.start_date) %> until <%= display_date_as_bce_or_ce(period.end_date) %></ul></b>
+    <% period.authors.each do |author| %>
+      <ul style="font-size:70%">&emsp;<a href="/authors/<%=author.slug%>"><%= author.name %></a></ul>
+    <% end %>
+  <% end %>
+    <br>
+  </li>
+<% end %>
+</ol>

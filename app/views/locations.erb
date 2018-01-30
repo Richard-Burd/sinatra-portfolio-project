@@ -1,1 +1,21 @@
-<h1> This is going to be a list of all locations where the authors lived </h1>
+<h1> Places where the Authors in the Catalog Lived </h1>
+<ol>
+<% Location.all.each do |location| %>
+  <% if location.authors.count > 0 %>
+    <% if location.city != nil %>
+      <li style="font-size:200%">
+        <%= location.city %>
+      <b><ul style="font-size:60%; color: grey;">Located in the region of <%= location.region %> when it was part of the <%= location.polity %>.  Today, this city is located in <%= location.today_part_of %>.</ul></b>
+    <% else %>
+    <li style="font-size:200%">
+      <%= location.region %>
+    <b><ul style="font-size:60%; color: grey;"> when it was part of the <%= location.polity %>.  Today, this city is located in <%= location.today_part_of %>.</ul></b>
+    <% end %>
+    <% location.authors.each do |author| %>
+      <ul style="font-size:70%">&emsp;<a href="/authors/<%=author.slug%>"><%= author.name %></a></ul>
+    <% end %>
+  <% end %>
+    <br>
+  </li>
+<% end %>
+</ol>
