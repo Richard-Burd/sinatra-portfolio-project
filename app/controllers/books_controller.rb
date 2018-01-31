@@ -9,12 +9,12 @@ class BooksController < ApplicationController
     if logged_in?
       erb :'books/create_book'
     else
-      redirect to '/login'
+      redirect to '/validation-failure'
     end
   end
 
   get '/books/:slugtitle' do
-    @books = Book.find_by_slugtitle(params[:slugtitle])
+    @book = Book.find_by_slugtitle(params[:slugtitle])
     erb :'books/show_book'
   end
 

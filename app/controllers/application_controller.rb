@@ -13,6 +13,10 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+  get '/validation-failure' do
+    erb :'display_validation_failure'
+  end
+
   get '/library' do
     erb :library, :layout => :library_layout
   end
