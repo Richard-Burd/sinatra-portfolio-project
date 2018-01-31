@@ -21,7 +21,7 @@ class BooksController < ApplicationController
   end
 
   post '/books' do
-#   raise params.inspect
+   raise params.inspect
 #     {
 #       "book"=>
 #         {"title"=>"AAdfarks", "topics"=>"funny story", "year_published"=>"", "author_id"=>"6"}
@@ -32,6 +32,7 @@ class BooksController < ApplicationController
 
     @book = Book.create(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
     @booklanguage = BookLanguage.create(book_id: @book.id, language_id: params[:booklanguage]["language.id"])
+    @booklanguage = BookGenre.create(book_id: @book.id, genre_id: params[:bookgenre]["genre.id"])
     redirect to :'books'
   end
 end
