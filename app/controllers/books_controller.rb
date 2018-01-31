@@ -18,14 +18,10 @@ class BooksController < ApplicationController
     erb :'books/show_book'
   end
 
-  post '/books/new/book/address/here' do
-    @book = Book.create(params[:title])
-  #  @books = Book.find(params[:slugtitle])
-  #  @books.update(params["book"])
-  #  if !params["author"]["name"].empty?
-  #    @books.author = Author.create(name: params["author"]["name"])
-  #  end
-  #  @books.save
-  #  redirect "books/#{@books.title.slugtitle}"
+  post '/books' do
+#    raise params.inspect
+    @book = Book.create(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
+    @book.save
+    erb :'books/books'
   end
 end
