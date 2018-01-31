@@ -16,7 +16,9 @@
 <% myarray = @authors.sort_by {|obj| obj.name} %>
   <ol style="font-size:120%; color: grey">
     <%myarray.each.each do |author|%>
+      <% if !author.name.include?("Unknown") %>
         <li><b><input type="checkbox" name="book[author_id]" id="<%= author.name %>" value="<%=author.id%>">  <%=author.name%>&emsp;&emsp;&emsp;</input></b></li>
+      <%end%>
     <%end%>
   </ol>
   <br></br>
@@ -34,8 +36,8 @@
 <h3>Select from the list of Genres below</h3>
 <% gen_array = @genres.sort_by {|gen_obj| gen_obj.name} %>
   <ol style="font-size:120%; color: grey">
-    <% gen_array.each.each do |genre| %>
-        <li><b><input type="checkbox" name="bookgenre[genre.id]" id="<%= genre.name %>" value="<%=genre.id%>"> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
+    <% gen_array.each.each do |genre| genre_id = genre.id %>
+        <li><b><input type="checkbox" name="bookgenre[gens][][genre_id]" id="<%= genre.name %>" value="<%=genre.id%>"> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
     <%end%>
   </ol>
 
