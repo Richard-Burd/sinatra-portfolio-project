@@ -19,17 +19,14 @@
         <li><b><input type="checkbox" name="book[author_id]" id="<%= author.name %>" value="<%=author.id%>">  <%=author.name%>&emsp;&emsp;&emsp;</input></b></li>
     <%end%>
   </ol>
-<br></br>
-<br></br>
 
-
-<h3>If the author and publication date are unknown, please fill out the data below:</h3>
-<h3><input type="checkbox" name="author[name]" id="unknown_author_name" value="Unknown"> Author is Unknown</b></h3>
-<label>Earliest year the book was probably redacted (negative number for b.c.e, positive for c.e.):</label>
-<input type="text" name="author[birth_date]" id="unknown_author_birth_date">
-<br></br>
-<label>Earliest year the book was probably redacted (negative number for b.c.e, positive for c.e.):</label>
-<input type="text" name="author[death_date]" id="unknown_author_death_date">
+<h3>Select from the list of Languages below</h3>
+<% lang_array = @languages.sort_by {|lang_obj| lang_obj.name} %>
+  <ol style="font-size:120%; color: grey">
+    <%lang_array.each.each do |language|%>
+        <li><b><input type="checkbox" name="booklanguage[language.id]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
+    <%end%>
+  </ol>
 
 <br></br>
 <br></br>

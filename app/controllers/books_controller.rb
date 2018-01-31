@@ -6,8 +6,8 @@ class BooksController < ApplicationController
 
   get '/books/new' do
     @authors = Author.all # this is required to list out all existing authors
-    @genres = Author.all # this is required to list out all existing genres
-    @languages = Author.all # this is required to list out all existing languages
+    @genres = Genre.all # this is required to list out all existing genres
+    @languages = Language.all # this is required to list out all existing languages
     if logged_in?
       erb :'books/create_book'
     else
@@ -21,17 +21,17 @@ class BooksController < ApplicationController
   end
 
   post '/books' do
-#    raise params.inspect
-    @unknown_author = Author.create(name: params[:author][:name], birth_date: params[:author][:birth_date], death_date: params[:author][:death_date]) # I need this in order to assign an "unknown author"
+#   raise params.inspect
+#     {
+#       "book"=>
+#         {"title"=>"AAdfarks", "topics"=>"funny story", "year_published"=>"", "author_id"=>"6"}
+#          ,
+#       "booklanguage"=>
+#         {"language.id"=>"4"}
+#     }
+
     @book = Book.create(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
-    @unknown_author = @book.author
-#    @unknown_author.unknown_author # <= this method renames the "unknown" author to include the new book name that was just created.
-#    @unknown_author.save
-#    @book.save
-#  This method below is in the seed data that does the same thing to all existing authors with an "unknown" or nil name.
-#    Book.all.each do |book|
-#      book.unknown_author
-#    end
-    redirect :'books'
+    @booklanguage = BookLanguage.create(book_id: @book.id, language_id: params[:booklanguage]["language.id"])
+    redirect to :'books'
   end
 end
