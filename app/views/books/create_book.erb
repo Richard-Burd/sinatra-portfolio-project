@@ -21,11 +21,12 @@
   </ol>
   <br></br>
   <br></br>
-<h3>Select from the list of Languages below</h3>
+<h3>Select one or more from the list of Languages below</h3>
+<h3 style="font-size:120%; color: grey"> Isn't this cool...I'm using nested a dynamic nested form!! </h3>
 <% lang_array = @languages.sort_by {|lang_obj| lang_obj.name} %>
   <ol style="font-size:120%; color: grey">
-    <%lang_array.each.each do |language|%>
-        <li><b><input type="checkbox" name="booklanguage[language.id]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
+    <%lang_array.each.each do |language| language_id = language.id %>
+        <li><b><input type="checkbox" name="booklanguage[langs][][language_id]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
     <%end%>
   </ol>
   <br></br>
