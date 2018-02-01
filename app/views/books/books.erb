@@ -5,6 +5,14 @@
       <% myarray.each do |book| %>
       <li><b><a href="/books/<%=book.slugtitle%>"><%= book.title %></a></b></li>
         <ul style="font-size:80%"><%= book.topics %></ul>
+
+        <% if logged_in? && book.user_id == session[:user_id] %>
+          <form action="books/<%=book.slugtitle%>/edit" method="POST">
+            <input type="submit" style="font-size:60%; color: #297b5c;" value="Edit Book"/>
+          </form>
+        <% end %>
+
+
       <br>
       <% end %>
   </ol>

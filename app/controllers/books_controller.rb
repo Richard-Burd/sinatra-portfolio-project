@@ -15,6 +15,11 @@ class BooksController < ApplicationController
     end
   end
 
+  post '/books/:slugtitle/edit' do
+    @book = Book.find_by_slugtitle(params[:slugtitle])
+    erb :'books/edit_book'
+  end
+
   get '/books/:slugtitle' do
     @book = Book.find_by_slugtitle(params[:slugtitle])
     erb :'books/show_book'
@@ -26,6 +31,7 @@ class BooksController < ApplicationController
       @book.year_published = nil #<= so this activates the <<hypothetical_date_of_publication>> method so if you don't know when the book was published, it will estimate that for you.
     end
     @book.unknown_author         #<= when you create a new author named "Unknown" and then you list
+    @book.user_id = session[:user_id]
     @book.save
 
     params[:booklanguage][:langs].each do |details|
