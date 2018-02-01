@@ -20,6 +20,7 @@ class BooksController < ApplicationController
     redirect to '/validation-failure'
   end
 
+
   post '/books/:slugtitle/edit' do # This ie exactly the same as "'/books/new' do" above
     @authors = Author.all # this is required to list out all existing authors
     @genres = Genre.all # this is required to list out all existing genres
@@ -33,7 +34,7 @@ class BooksController < ApplicationController
     end
   end
 
-  post '/books/:slugtitle' do # this recieves the post action of "edit_book.erb"
+  patch '/books/:slugtitle' do # this recieves the post action of "edit_book.erb"
 #   raise params.inspect
     @book = Book.find_by_slugtitle(params[:slugtitle])
     @book.update(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
