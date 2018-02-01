@@ -1,7 +1,7 @@
 <h1>Edit the Book: "<%= @book.title %>"</h1>
 
 <form action="/books/<%=@book.slugtitle%>" method="post">
-  <input id="hidden" type="hidden" name="_method" value="PATCH"> <!-- I can't get the "patch" edit action to work for some reason -->
+  <input id="hidden" type="hidden" name="_method" value="PATCH">
   <label>Book Title:</label>
   <input type="text" name="book[title]" id="book_title" value="<%=@book.title%>">
   <br></br>

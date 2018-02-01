@@ -125,4 +125,18 @@ class BooksController < ApplicationController
   #  @bookgenre = BookGenre.create(book_id: @book.id, genre_id: params[:bookgenre]["genre.id"])                 <= This only would work if there was one genre
     redirect to :'books'
   end
+
+  delete '/books/:slugtitle/delete' do
+    if logged_in?
+      @book = Book.find_by_slugtitle(params[:slugtitle])
+      if @book.user_id == current_user.id
+        @book.delete
+        redirect to '/books'
+      else
+        redirect to '/books'
+      end
+    else
+      redirect to '/login'
+    end
+  end
 end
