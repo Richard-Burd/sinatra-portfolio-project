@@ -24,6 +24,11 @@ class BooksController < ApplicationController
     end
   end
 
+  post '/books/:slugtitle' do
+    @book = Book.find_by_slugtitle(params[:slugtitle])
+    erb :'books/show_book'
+  end
+
   get '/books/:slugtitle' do
     @book = Book.find_by_slugtitle(params[:slugtitle])
     erb :'books/show_book'

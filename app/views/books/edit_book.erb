@@ -1,1 +1,7 @@
-<h1> This is where you'll edit an existing book if you created it in the first place </h1>
+<h1>Edit <%= @book.title %></h1>
+<h1>Value: <%= @book.slugtitle %></h1>
+<form action="/books/<%=@book.slugtitle%>" method="post">
+
+
+  <input type="submit" value="Save Edits">
+</form>
