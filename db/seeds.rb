@@ -1,8 +1,8 @@
-Author.create(name: "Rashi", subjects: "Biblical & Talmudic Commentaries", birth_date: 1040, death_date: 1105)
+Author.create(name: "Rashi", subjects: "Biblical & Talmudic Commentaries", birth_date: 1040, death_date: 1105, user_id: 1)
 Location.create(city: "Troyes", region: "Champagne", polity: "Holy Roman Empire", today_part_of: "France")
 AuthorLocation.create(author_id: 1, location_id: 1)
 
-Author.create(name: "Rambam", subjects: "Halakah & Medieval Philosophy", birth_date: 1135, death_date: 1204)
+Author.create(name: "Rambam", subjects: "Halakah & Medieval Philosophy", birth_date: 1135, death_date: 1204, user_id: 1)
 Location.create(city: "Cordoba", region: "Andalusia", polity: "Almoravid Empire", today_part_of: "Spain")
 Location.create(city: "Fustat", polity: "Ayyubid Sultanate", today_part_of: "Egypt")
 AuthorLocation.create(author_id: 2, location_id: 2)
@@ -28,13 +28,13 @@ Author.create(name: "Aristotle", subjects: "Biology, Physics, Rhetoric, Politics
 Location.create(city: "Stagira", region: "Chalkidiki", polity: "Chalcidian League", today_part_of: "Greece")
 AuthorLocation.create(author_id: 6, location_id: 9)
 
-Author.create(name: "At-Tabari", subjects: "Qur'anic Commentary", birth_date: 839, death_date: 923)
+Author.create(name: "At-Tabari", subjects: "Qur'anic Commentary", birth_date: 839, death_date: 923, user_id: 2)
 Location.create(city: "Amol", region: "Tabaristan", polity: "Abbasid Caliphate", today_part_of: "Iran")
 Location.create(city: "Baghdad", polity: "Abbasid Caliphate", today_part_of: "Iraq")
 AuthorLocation.create(author_id: 7, location_id: 10)
 AuthorLocation.create(author_id: 7, location_id: 11)
 
-Author.create(name: "Jalal Ad-Din Rumi", subjects: "Sufic Poetry & Hanafi Fiqh", birth_date: 1207, death_date: 1273)
+Author.create(name: "Jalal Ad-Din Rumi", subjects: "Sufic Poetry & Hanafi Fiqh", birth_date: 1207, death_date: 1273, user_id: 2)
 Location.create(city: "Balkh", polity: "Khwarazmian Empire", today_part_of: "Afghanistan")
 Location.create(city: "Konya", region: "Central Anatolia", polity: "Sultanate of Rum", today_part_of: "Turkey")
 AuthorLocation.create(author_id: 8, location_id: 12)
@@ -51,6 +51,22 @@ AuthorLocation.create(author_id: 10, location_id: 15)
 
 Author.create(name: "Unknown", birth_date: -100, death_date: 100)
 AuthorLocation.create(author_id: 11, location_id: 14)
+
+Author.create(name: "Erasmus Roterodamus", subjects: "Humanities, Classics, Greek Language, & Renaissance philosophy ", birth_date: 1466, death_date: 1536, user_id: 1)
+Location.create(city: "Gouda", region: "Low Countries", polity: "Burgundian Netherlands", today_part_of: "Europe")
+AuthorLocation.create(author_id: 12, location_id: 16)
+
+Author.create(name: "Baruch Spinoza", subjects: "Groundwork for the 18th-century Enlightenment, biblical criticism & including conceptions of the self and the universe", birth_date: 1632, death_date: 1677, user_id: 1)
+Location.create(city: "Amsterdam", region: "Low Countries", polity: "Dutch Republic", today_part_of: "Holland")
+AuthorLocation.create(author_id: 13, location_id: 17)
+Location.create(city: "The Hague", region: "Low Countries", polity: "Dutch Republic", today_part_of: "Holland")
+AuthorLocation.create(author_id: 13, location_id: 18)
+
+Author.create(name: "René Descartes", subjects: "Metaphysics, epistemology, mathematics, physics, cosmology", birth_date: 1596, death_date: 1650, user_id: 1)
+Location.create(city: "Amsterdam", region: "Centre-Val de Loire", polity: "Dutch Republic", today_part_of: "France")
+AuthorLocation.create(author_id: 14, location_id: 19)
+Location.create(city: "Stockholm", region: "Södermanland", polity: "Swedish Empire", today_part_of: "Sweden")
+AuthorLocation.create(author_id: 14, location_id: 20)
 
 # /////////////////////////////
 
@@ -69,6 +85,7 @@ Genre.create(name: "Exegesis")
 Genre.create(name: "Apologetics")
 Genre.create(name: "Mysticism")
 Genre.create(name: "Text Translations")
+Genre.create(name: "Comedy")
 
 BookGenre.create(book_id: 1, genre_id: 7)
 BookGenre.create(book_id: 1, genre_id: 10)
@@ -183,7 +200,8 @@ BookGenre.create(book_id: 25, genre_id: 12)
 BookGenre.create(book_id: 26, genre_id: 5)
 BookGenre.create(book_id: 26, genre_id: 8)
 BookGenre.create(book_id: 26, genre_id: 15)
-
+BookGenre.create(book_id: 27, genre_id: 16)
+BookGenre.create(book_id: 28, genre_id: 16)
 
 Book.create(title: "Matnawiye Ma'nawi", topics: "A series of six books of poetry that together amount to around 25,000 verses.", author_id: 8)
 Book.create(title: "Diwan-e-Kabir", topics: "A collection of lyric poems that contains more than 40,000 verses.", author_id: 8)
@@ -254,6 +272,8 @@ BookLanguage.create(book_id: 23, language_id: 1)
 BookLanguage.create(book_id: 24, language_id: 1)
 BookLanguage.create(book_id: 25, language_id: 1)
 BookLanguage.create(book_id: 26, language_id: 2)
+BookLanguage.create(book_id: 27, language_id: 1)
+BookLanguage.create(book_id: 28, language_id: 4)
 
 Period.create(name: "Archaic Period", start_date: -776, end_date: -612)
 Period.create(name: "Pre-Classical Period", start_date: -612, end_date: -480)
@@ -270,6 +290,19 @@ Period.create(name: "The Renaissance", start_date: 1453, end_date: 1600)
 Period.create(name: "Early Modern Period", start_date: 1600, end_date: 1900)
 Period.create(name: "Modern Period", start_date: 1900, end_date: 3000)
 
+Author.create(name: "Brian Cohen", subjects: "First Century Humor", birth_date: -40, death_date: 60, user_id: 2)
+Book.create(title: "Life of Brian (Original Autobiography)", topics: "This book was created in the database in order to test the 'hypothetical_date_of_publication' located in the 'Book' class model", author_id: 15, user_id: 2)
+Book.create(title: "The Lost & Ancient Book on Comedy", topics: "The Philosopher wrote this and the Benedictine Monks sought to keep it a secret for they hated laughter ", author_id: 6, user_id: 2)
+
+User.create(username: "Tom", email: "tom@yahoo.com", password: "secret")
+User.create(username: "Nancy", email: "nancy@yahoo.com", password: "asdf")
+
+Book.all.each do |book|
+  book.unknown_author
+end
+
+Author.create(name: "Unknown", birth_date: -34, death_date: 27) # this needs to be deleted after you have the ability to create a new author
+
 Author.find(1).assign_period
 Author.find(2).assign_period
 Author.find(3).assign_period
@@ -281,13 +314,8 @@ Author.find(8).assign_period
 Author.find(9).assign_period
 Author.find(10).assign_period
 Author.find(11).assign_period
-
-Author.create(name: "Brian Cohen", subjects: "First Century Humor", birth_date: -40, death_date: 60)
-Book.create(title: "My Life, The Life of Brian", topics: "This book was created in the database in order to test the 'hypothetical_date_of_publication' located in the 'Book' class model", author_id: 12)
-
-User.create(username: "Tom", email: "tom@yahoo.com", password: "secret")
-User.create(username: "Nancy", email: "nancy@yahoo.com", password: "asdf")
-
-Book.all.each do |book|
-  book.unknown_author
-end
+Author.find(12).assign_period
+Author.find(13).assign_period
+Author.find(14).assign_period
+Author.find(15).assign_period
+Author.find(16).assign_period

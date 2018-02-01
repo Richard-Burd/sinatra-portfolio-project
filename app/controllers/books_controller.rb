@@ -21,18 +21,9 @@ class BooksController < ApplicationController
   end
 
   post '/books' do
-#   raise params.inspect
-#     {
-#       "book"=>
-#         {"title"=>"AAdfarks", "topics"=>"funny story", "year_published"=>"", "author_id"=>"6"}
-#          ,
-#       "booklanguage"=>
-#         {"language.id"=>"4"}
-#     }
-
     @book = Book.new(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
     if @book.year_published == ""
-      @book.year_published = nil #<= so this activates the <<hypothetical_date_of_publication>> methd
+      @book.year_published = nil #<= so this activates the <<hypothetical_date_of_publication>> method so if you don't know when the book was published, it will estimate that for you.
     end
     @book.unknown_author         #<= when you create a new author named "Unknown" and then you list
     @book.save

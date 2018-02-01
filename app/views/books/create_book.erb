@@ -16,7 +16,7 @@
 <% myarray = @authors.sort_by {|obj| obj.name} %>
   <ol style="font-size:120%; color: grey">
     <%myarray.each.each do |author|%>
-      <% if !author.name.include?("Unknown") %>
+      <% if !author.name.include?("- Author Unknown") %>
         <li><b><input type="checkbox" name="book[author_id]" id="<%= author.name %>" value="<%=author.id%>">  <%=author.name%>&emsp;&emsp;&emsp;</input></b></li>
       <%end%>
     <%end%>
