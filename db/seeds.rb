@@ -240,8 +240,8 @@ Book.create(title: "Chumash Rashi", topics: "Most influential commentary on the 
 Book.create(title: "Talmud Bavli Rashi", topics: "Most influential commentary on the Talmud", author_id: 1)
 Book.create(title: "Siddur Rashi", topics: "Compiled by an unknown student, also contains Rashi's responsa on tefellos.", author_id: 1, user_id: 2)
 Book.create(title: "Mekhilta D'Rebbe Yishmael", topics: "A collection of rules of interpretation and a halakhic midrash to the Book of Exodus.", author_id: 9)
-Book.create(title: "Tanchuma", topics: "Three different collections of Pentateuch aggadot; two are extant, while the third is known only through citations. These midrashim, although bearing the name of R. Tanḥuma, must not be regarded as having been written or edited by him.", author_id: 10)
-Book.create(title: "Targum Neofiti", topics: "The largest of the Western Targumim on the Torah, or Palestinian Targumim. It consists of 450 folios covering all books of the Torah, with only a few damaged verses.", author_id: 11)
+Book.create(title: "Tanchuma", topics: "Three different collections of Pentateuch aggadot; two are extant, while the third is known only through citations. These midrashim, although bearing the name of R. Tanḥuma, must not be regarded as having been written or edited by him.", author_id: 10, user_id: 1)
+Book.create(title: "Targum Neofiti", topics: "The largest of the Western Targumim on the Torah, or Palestinian Targumim. It consists of 450 folios covering all books of the Torah, with only a few damaged verses.", author_id: 11, user_id: 1)
 
 Language.create(name: "Hebrew")
 Language.create(name: "Aramaic")
