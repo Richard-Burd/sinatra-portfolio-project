@@ -1,6 +1,33 @@
-<h1>Edit <%= @book.title %></h1>
-<h1>Value: <%= @book.slugtitle %></h1>
+<h1>Edit the Book: "<%= @book.title %>"</h1>
+
 <form action="/books/<%=@book.slugtitle%>" method="post">
+  <label>Book Title:</label>
+  <input type="text" name="book[title]" id="book_title" value="<%=@book.title%>">
+  <br></br>
+  <label>Brief description of what the book is about:</label>
+  <input type="text" name="book[topics]" id="book_topics" value="<%=@book.topics%>">
+  <br></br>
+  <label>Year the book was published (negative number for b.c.e, positive for c.e.) leave blank if unknown:</label>
+  <input type="text" name="book[year_published]" id="book_year_published" value="<%=@book.year_published%>">
+  <br></br>
+
+<h3> Select from the list of authors below or <a href="/authors/new">create a new author for this book first, before you create the new book</a></h3>
+<h3 style="font-size:120%; color: grey"> Please select only one author or you'll crash me...sorry but I don't know how to get javascript working to prevent this type of user abuse yet </h3>
+<% myarray = @authors.sort_by {|obj| obj.name} %>
+  <ol style="font-size:120%; color: grey">
+    <%myarray.each.each do |author|%>
+      <% if !author.name.include?("- Author Unknown") %>
+        <% if author == @book.author %>
+          <li><b><input type="checkbox" name="book[author_id]" id="<%= author.name %>" value="<%=author.id%>" checked>  <%=author.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <% else %>
+          <li><b><input type="checkbox" name="book[author_id]" id="<%= author.name %>" value="<%=author.id%>">  <%=author.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <%end%>
+      <%end%>
+    <%end%>
+  </ol>
+  <br></br>
+  <br></br>
+
 
 
   <input type="submit" value="Save Edits">

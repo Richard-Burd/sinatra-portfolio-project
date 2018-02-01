@@ -16,6 +16,10 @@ class BooksController < ApplicationController
   end
 
   post '/books/:slugtitle/edit' do
+    @authors = Author.all # this is required to list out all existing authors
+    @genres = Genre.all # this is required to list out all existing genres
+    @languages = Language.all # this is required to list out all existing languages
+
     @book = Book.find_by_slugtitle(params[:slugtitle])
     if logged_in?
       erb :'books/edit_book'
@@ -25,6 +29,7 @@ class BooksController < ApplicationController
   end
 
   post '/books/:slugtitle' do
+  #  raise params.inspect
     @book = Book.find_by_slugtitle(params[:slugtitle])
     erb :'books/show_book'
   end
