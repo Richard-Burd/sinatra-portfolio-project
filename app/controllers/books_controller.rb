@@ -17,7 +17,11 @@ class BooksController < ApplicationController
 
   post '/books/:slugtitle/edit' do
     @book = Book.find_by_slugtitle(params[:slugtitle])
-    erb :'books/edit_book'
+    if logged_in?
+      erb :'books/edit_book'
+    else
+      redirect to '/validation-failure'
+    end
   end
 
   get '/books/:slugtitle' do

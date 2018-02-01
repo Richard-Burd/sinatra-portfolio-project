@@ -32,3 +32,11 @@
       <% end %>
     </ul>
 </h3>
+
+<h1>
+<% if logged_in? && @book.user_id == session[:user_id] %>
+  <form action="<%=@book.slugtitle%>/edit" method="POST">
+    <input type="submit" style="font-size:60%; color: #297b5c;" value="Edit This Book"/>
+  </form>
+<% end %>
+</h1>

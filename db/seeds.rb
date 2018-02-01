@@ -62,7 +62,7 @@ AuthorLocation.create(author_id: 13, location_id: 17)
 Location.create(city: "The Hague", region: "Low Countries", polity: "Dutch Republic", today_part_of: "Holland")
 AuthorLocation.create(author_id: 13, location_id: 18)
 
-Author.create(name: "René Descartes", subjects: "Metaphysics, epistemology, mathematics, physics, cosmology", birth_date: 1596, death_date: 1650, user_id: 1)
+Author.create(name: "Rene Descartes", subjects: "Metaphysics, epistemology, mathematics, physics, cosmology", birth_date: 1596, death_date: 1650, user_id: 1)
 Location.create(city: "Amsterdam", region: "Centre-Val de Loire", polity: "Dutch Republic", today_part_of: "France")
 AuthorLocation.create(author_id: 14, location_id: 19)
 Location.create(city: "Stockholm", region: "Södermanland", polity: "Swedish Empire", today_part_of: "Sweden")
@@ -86,6 +86,8 @@ Genre.create(name: "Apologetics")
 Genre.create(name: "Mysticism")
 Genre.create(name: "Text Translations")
 Genre.create(name: "Comedy")
+Genre.create(name: "Linguistics & Grammar")
+Genre.create(name: "Politics")
 
 BookGenre.create(book_id: 1, genre_id: 7)
 BookGenre.create(book_id: 1, genre_id: 10)
@@ -200,8 +202,19 @@ BookGenre.create(book_id: 25, genre_id: 12)
 BookGenre.create(book_id: 26, genre_id: 5)
 BookGenre.create(book_id: 26, genre_id: 8)
 BookGenre.create(book_id: 26, genre_id: 15)
+
 BookGenre.create(book_id: 27, genre_id: 16)
+
 BookGenre.create(book_id: 28, genre_id: 16)
+
+BookGenre.create(book_id: 29, genre_id: 3)
+BookGenre.create(book_id: 29, genre_id: 2)
+
+BookGenre.create(book_id: 30, genre_id: 17)
+
+BookGenre.create(book_id: 31, genre_id: 2)
+BookGenre.create(book_id: 31, genre_id: 3)
+BookGenre.create(book_id: 31, genre_id: 18)
 
 Book.create(title: "Matnawiye Ma'nawi", topics: "A series of six books of poetry that together amount to around 25,000 verses.", author_id: 8)
 Book.create(title: "Diwan-e-Kabir", topics: "A collection of lyric poems that contains more than 40,000 verses.", author_id: 8, user_id: 1)
@@ -272,8 +285,13 @@ BookLanguage.create(book_id: 23, language_id: 1)
 BookLanguage.create(book_id: 24, language_id: 1)
 BookLanguage.create(book_id: 25, language_id: 1)
 BookLanguage.create(book_id: 26, language_id: 2)
-BookLanguage.create(book_id: 27, language_id: 1)
+BookLanguage.create(book_id: 27, language_id: 2)
+BookLanguage.create(book_id: 27, language_id: 5)
 BookLanguage.create(book_id: 28, language_id: 4)
+BookLanguage.create(book_id: 29, language_id: 5)
+BookLanguage.create(book_id: 30, language_id: 1)
+BookLanguage.create(book_id: 30, language_id: 5)
+BookLanguage.create(book_id: 31, language_id: 5)
 
 Period.create(name: "Archaic Period", start_date: -776, end_date: -612)
 Period.create(name: "Pre-Classical Period", start_date: -612, end_date: -480)
@@ -302,6 +320,10 @@ Book.all.each do |book|
 end
 
 Author.create(name: "Unknown", birth_date: -34, death_date: 27) # this needs to be deleted after you have the ability to create a new author
+
+Book.create(title: "Ethica", year_published: 1677, topics: "A philosophical treatise & attempt to apply the method of Euclid in philosophy", author_id: 13, user_id: 1)
+Book.create(title: "Compendium grammatices linguae hebraeae", year_published: 1677, topics: "Hebrew grammar for readers of Latin", author_id: 13, user_id: 1)
+Book.create(title: "Tractatus Politicus", year_published: 1675, topics: "In quo demonstratur, quomodo Societas, ubi Imperium Monarchicum locum habet, sicut et ea, ubi Optimi imperant, debet institui, ne in Tyrannidem labatur, et ut Pax, Libertasque civium inviolata maneat", author_id: 13, user_id: 1)
 
 Author.find(1).assign_period
 Author.find(2).assign_period
