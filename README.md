@@ -98,4 +98,4 @@ There will be a guide here
 
 ## Cool Graphics
 
-<p class='util--hide'> The diagram should go on imgur here: <a https://imgur.com/cYaObY2'>available here</a> on this readme file.</p>
+<p class='util--hide'> The diagram should go on imgur here: <a href='https://imgur.com/cYaObY2'>available here</a> on this readme file.</p>
