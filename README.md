@@ -2,9 +2,17 @@
 
 ## Overview
 
-This is a Portfolio Project for Flatiron School.  Stay tuned for more information in this readme file!
-### File Structure
+<p class='util--hide'>Welcome to the “Sinatra Portfolio Project” program by Richard Burd.  This is my submission for <a href='https://github.com/learn-co-students/sinatra-cms-app-assessment-v-000'>this project here</a> on Learn.co.</p>
 
+## About This Program
+
+The purpose will go here
+
+## Install instructions
+
+The instructions will be here
+
+### Project File Structure
 ```
 ├── ave_
 ├── Gemfile
@@ -84,6 +92,10 @@ This is a Portfolio Project for Flatiron School.  Stay tuned for more informatio
     └── seeds.rb
 ```
 
-### Gemfile and environment.rb
+## Contributors Guide
 
-This project is supported by Bundler and includes a `Gemfile`.
+There will be a guide here
+
+## Cool Graphics
+
+<p class='util--hide'> The diagram should go on imgur here: <a href='https://yahoo.com'>available here</a> on this readme file.</p>
