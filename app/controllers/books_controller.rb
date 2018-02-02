@@ -161,6 +161,8 @@ class BooksController < ApplicationController
         bookgenre.save
       end
     end
+   #  @booklanguage = BookLanguage.create(book_id: @book.id, language_id: params[:booklanguage]["language.id"])  <= This only would work if there was one language
+   #  @bookgenre = BookGenre.create(book_id: @book.id, genre_id: params[:bookgenre]["genre.id"])                 <= This only would work if there was one genre
     erb :'books/show_book'
   end
 
@@ -200,7 +202,7 @@ class BooksController < ApplicationController
         bookgenre.save
       end
     end
-  #  @booklanguage = BookLanguage.create(book_id: @book.id, language_id: params[:booklanguage]["language.id"])  <= This only would work if there was one book
+  #  @booklanguage = BookLanguage.create(book_id: @book.id, language_id: params[:booklanguage]["language.id"])  <= This only would work if there was one language
   #  @bookgenre = BookGenre.create(book_id: @book.id, genre_id: params[:bookgenre]["genre.id"])                 <= This only would work if there was one genre
     redirect to :'books'
   end
