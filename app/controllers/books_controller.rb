@@ -5,6 +5,46 @@ class BooksController < ApplicationController
   end
 
   get '/books/new' do # This ie exactly the same as "post '/books/:slugtitle/edit' do" below
+#   raise params.inspect
+#   OK, so basically, we're building a super complex, super nested hash here.
+#   We have to do this in order to use the data from the BookLanguage and BookGenre classes.
+#   This is because that data is all nothing but a bunch of integers, so it will get really
+#   confusing if we don't have a way to sort out the data on the BookController end so we can
+#   take this data from this hash below and then transfer it into Active-Record-Land via the
+#   this BookController class.
+=begin
+    { "_method"=>"PATCH",
+      "book"=> {
+        "title"=>"Diwan-e-Kabir",
+        "topics"=>"A collection of lyric poems that contains more than 40,000 verses.",
+        "year_published"=>"",
+        "author_id"=>"8"},
+        "booklanguage"=> {
+          "langs"=>  [
+                       {
+            "language_id"=>"3"
+          },
+                       {
+            "language_id"=>"6"
+          }
+         ]
+        },
+        "bookgenre"=>  {
+          "gens"=> [
+                       {
+            "genre_id"=>"7"
+          },
+          {
+            "genre_id"=>"14"
+          },
+          {
+            "genre_id"=>"10"
+          }
+          ]
+        },
+      "slugtitle"=>"diwan-e-kabir"
+    }
+=end
     @authors = Author.all # this is required to list out all existing authors
     @genres = Genre.all # this is required to list out all existing genres
     @languages = Language.all # this is required to list out all existing languages
@@ -36,6 +76,45 @@ class BooksController < ApplicationController
 
   patch '/books/:slugtitle' do # this recieves the post action of "edit_book.erb"
 #   raise params.inspect
+#   OK, so basically, we're building a super complex, super nested hash here.
+#   We have to do this in order to use the data from the BookLanguage and BookGenre classes.
+#   This is because that data is all nothing but a bunch of integers, so it will get really
+#   confusing if we don't have a way to sort out the data on the BookController end so we can
+#   take this data from this hash below and then transfer it into Active-Record-Land via the
+#   this BookController class.
+=begin
+    { "_method"=>"PATCH",
+      "book"=> {
+        "title"=>"Diwan-e-Kabir",
+        "topics"=>"A collection of lyric poems that contains more than 40,000 verses.",
+        "year_published"=>"",
+        "author_id"=>"8"},
+        "booklanguage"=> {
+          "langs"=>  [
+                       {
+            "language_id"=>"3"
+          },
+                       {
+            "language_id"=>"6"
+          }
+         ]
+        },
+        "bookgenre"=>  {
+          "gens"=> [
+                       {
+            "genre_id"=>"7"
+          },
+          {
+            "genre_id"=>"14"
+          },
+          {
+            "genre_id"=>"10"
+          }
+          ]
+        },
+      "slugtitle"=>"diwan-e-kabir"
+    }
+=end
     @book = Book.find_by_slugtitle(params[:slugtitle])
     @book.update(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
     if @book.year_published == ""
