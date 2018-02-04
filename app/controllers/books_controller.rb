@@ -40,7 +40,7 @@ class BooksController < ApplicationController
           {
             "genre_id"=>"10"
           }
-          ]
+         ]
         },
       "slugtitle"=>"diwan-e-kabir"
     }
@@ -110,7 +110,7 @@ class BooksController < ApplicationController
           {
             "genre_id"=>"10"
           }
-          ]
+         ]
         },
       "slugtitle"=>"diwan-e-kabir"
     }
