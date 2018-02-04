@@ -13,12 +13,12 @@ class BooksController < ApplicationController
 #   take this data from this hash below and then transfer it into Active-Record-Land via the
 #   this BookController class.
 =begin
-    { "_method"=>"PATCH",
       "book"=> {
         "title"=>"Diwan-e-Kabir",
         "topics"=>"A collection of lyric poems that contains more than 40,000 verses.",
         "year_published"=>"",
-        "author_id"=>"8"},
+        "author_id"=>"8"
+      },
         "booklanguage"=> {
           "langs"=>  [
                        {
@@ -41,9 +41,8 @@ class BooksController < ApplicationController
             "genre_id"=>"10"
           }
          ]
-        },
-      "slugtitle"=>"diwan-e-kabir"
-    }
+        }
+       }
 =end
     @authors = Author.all # this is required to list out all existing authors
     @genres = Genre.all # this is required to list out all existing genres
@@ -83,12 +82,13 @@ class BooksController < ApplicationController
 #   take this data from this hash below and then transfer it into Active-Record-Land via the
 #   this BookController class.
 =begin
-    { "_method"=>"PATCH",
-      "book"=> {
+    { "_method"=>"PATCH",     <=note: This level of the hash that shows the 'method' only shows up in a PATCH request method...
+      "book"=> {                      ...this level is not there in a generic 'POST' method...just look at the hash above ^
         "title"=>"Diwan-e-Kabir",
         "topics"=>"A collection of lyric poems that contains more than 40,000 verses.",
         "year_published"=>"",
-        "author_id"=>"8"},
+        "author_id"=>"8"
+      },
         "booklanguage"=> {
           "langs"=>  [
                        {
