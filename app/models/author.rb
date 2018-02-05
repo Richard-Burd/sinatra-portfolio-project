@@ -8,6 +8,7 @@ class Author < ActiveRecord::Base
   has_many :author_periods
   has_many :periods, through: :author_periods
   belongs_to :user
+  has_many :languages, through: :books
 
   def assign_period
     Period.all.each do |timeframe|
