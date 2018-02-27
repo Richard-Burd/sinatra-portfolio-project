@@ -2,7 +2,7 @@ class UsersController < ApplicationController
 
   get '/signup' do
     if !logged_in?
-      flash[:message] = "Please sign-up before you sign in."
+      flash[:message] = "Create an account below to add new items to the library catalog."
       erb :'users/create_user'
     else
       redirect to '/index'
@@ -16,7 +16,8 @@ class UsersController < ApplicationController
     # params = {"username"=>"Akiva", "email"=>"akiva@yahoo.com", "password"=>"qwerty"}
     # params = {"username"=>"Nancy", "email"=>"nancy@yahoo.com", "password"=>"asdf"}
     if params[:username] == "" || params[:email] == "" || params[:password] == ""
-      "Sorry, can you go back and fill out all three fields: Name, email, and password?"
+      flash[:message] = "Sorry, can you make sure to fill out all three fields: Name, Email, and Password?"
+      erb :'users/create_user'
       # redirect to '/signup'
     elsif logged_in?
       redirect to '/library'
@@ -38,6 +39,7 @@ class UsersController < ApplicationController
 
   get '/login' do
     if !logged_in?
+      flash[:message] = "Please sign-up here if you are a new user."
       erb :'users/login'
     else
       redirect '/library'

@@ -1,11 +1,13 @@
-<h2>Users</h2>
+<h2>Sign up below to become a new user!</h2>
 
-<% if flash.has?(:message) %>
-  <%= flash[:message] %>
-<% end %>
+<h3>
+  <font color="#33ccff">
+   <% if flash.has?(:message) %>
+    <%= flash[:message] %>
+   <% end %>
+  </font>
+</h3>
 
-
-<h3>Sign Up here if you're a first time user</h3>
 <form action="/signup" method="POST">
   <p>Name: <input type="text" name="username"></p>
   <p>Email: <input type="text" name="email"></p>
