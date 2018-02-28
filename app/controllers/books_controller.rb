@@ -50,7 +50,8 @@ class BooksController < ApplicationController
     if logged_in?
       erb :'books/create_book'
     else
-      redirect to '/validation-failure'
+      flash[:message] ="Oops, sorry but you must login below or sign up here first before creating a new book."
+      erb :'users/login'
     end
   end
 

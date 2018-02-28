@@ -52,7 +52,8 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect "/library"
     else
-      erb :'users/login_error'
+      flash[:message] = "Oops, your username & password combo is incorrect."
+      erb :'users/login'
     end
   end
 
