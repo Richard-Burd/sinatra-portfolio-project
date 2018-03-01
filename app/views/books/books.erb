@@ -4,15 +4,12 @@
     <% myarray = @books.sort_by {|obj| obj.title} %>
       <% myarray.each do |book| %>
       <li><b><a href="/books/<%=book.slugtitle%>"><%= book.title %></a></b></li>
-        <ul style="font-size:80%"><%= book.topics %></ul>
-
-        <% if logged_in? && book.user_id == session[:user_id] %>
-          <form action="books/<%=book.slugtitle%>/edit" method="get">
-            <input type="submit" style="font-size:60%; color: #297b5c;" value="Edit Book"/>
-          </form>
-        <% end %>
-
-
-      <br>
+        <ul style="font-size:80%">
+          <%= book.topics %><br>
+          <% if logged_in? && book.user_id == session[:user_id] %>
+            <a style="font-size:80%" href="/books/<%=book.slugtitle%>/edit">Edit This Book</a>
+          <% end %>
+        </ul>
+      <br><br>
       <% end %>
   </ol>
