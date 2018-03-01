@@ -60,18 +60,28 @@ class BooksController < ApplicationController
     end
   end
 
-  post '/books/:slugtitle/edit' do # This ie exactly the same as "'/books/new' do" above
+  get '/books/:slugtitle' do
+    @book = Book.find_by_slugtitle(params[:slugtitle])
+    erb :'books/show_book'
+  end
+
+  get '/books/:slugtitle/edit' do # This is almost exactly the same as "'/books/new' do" above
     @authors = Author.all # this is required to list out all existing authors
     @genres = Genre.all # this is required to list out all existing genres
     @languages = Language.all # this is required to list out all existing languages
-
-    @book = Book.find_by_slugtitle(params[:slugtitle])
     if logged_in?
-      erb :'books/edit_book'
+      @book = Book.find_by_slugtitle(params[:slugtitle])
+      if @book && @book.user == current_user
+        erb :'books/edit_book'
+      else
+        redirect to '/books'
+      end
     else
       redirect to '/login'
     end
   end
+
+  # ///////////////// everything above is corrected
 
   patch '/books/:slugtitle' do # this recieves the post action of "edit_book.erb"
 #   raise params.inspect
@@ -163,11 +173,6 @@ class BooksController < ApplicationController
     end
    #  @booklanguage = BookLanguage.create(book_id: @book.id, language_id: params[:booklanguage]["language.id"])  <= This only would work if there was one language
    #  @bookgenre = BookGenre.create(book_id: @book.id, genre_id: params[:bookgenre]["genre.id"])                 <= This only would work if there was one genre
-    erb :'books/show_book'
-  end
-
-  get '/books/:slugtitle' do
-    @book = Book.find_by_slugtitle(params[:slugtitle])
     erb :'books/show_book'
   end
 
