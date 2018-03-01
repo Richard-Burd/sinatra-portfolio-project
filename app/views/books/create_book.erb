@@ -1,5 +1,13 @@
 <h1> Create a new Book </h1>
 
+<h3>
+  <font color="#33ccff">
+   <% if flash.has?(:message) %>
+    <%= flash[:message] %>
+   <% end %>
+  </font>
+</h3>
+
 <form action="/books" method="POST">
   <label>Book Title:</label>
   <input type="text" name="book[title]" id="book_title">

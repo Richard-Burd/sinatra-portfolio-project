@@ -12,17 +12,22 @@ class BooksController < ApplicationController
       erb :'books/create_book'
     else
       flash[:message] ="Oops, sorry but you must login below or sign up here first before creating a new book."
-      erb :'users/login'
+      redirect to '/login'
     end
   end
 
   post '/books' do
     if logged_in?
+      taken_book_title = Book.find_by(:title => params[:book][:title])
+      if taken_book_title.present?
+        flash[:message] = "Sorry, but that book title is already taken, please choose another title."
+        redirect to '/books/new'
+      end
       @book = current_user.books.build(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
       if @book.year_published == ""
-        @book.year_published = nil #<= so this activates the <<hypothetical_date_of_publication>> method so if you don't know when the book was published, it will estimate that for you.
+        @book.year_published = nil
       end
-      @book.unknown_author         #<= when you create a new author named "Unknown" and then you list
+      @book.unknown_author
 
       params[:booklanguage][:langs].each do |details|
         BookLanguage.create(details)
