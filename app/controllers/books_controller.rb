@@ -55,12 +55,6 @@ class BooksController < ApplicationController
     end
   end
 
-  get '/books/:slugtitle/edit' do
-    @book = Book.find_by_slugtitle(params[:slugtitle])
-    redirect to '/validation-failure'
-  end
-
-
   post '/books/:slugtitle/edit' do # This ie exactly the same as "'/books/new' do" above
     @authors = Author.all # this is required to list out all existing authors
     @genres = Genre.all # this is required to list out all existing genres
@@ -70,7 +64,7 @@ class BooksController < ApplicationController
     if logged_in?
       erb :'books/edit_book'
     else
-      redirect to '/validation-failure'
+      redirect to '/login'
     end
   end
 
