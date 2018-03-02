@@ -11,19 +11,17 @@ class UsersController < ApplicationController
 
 
   post '/signup' do
-    taken_name = User.find_by(:username => params[:username])
-    taken_email = User.find_by(:email => params[:email])
     if params[:username] == "" || params[:email] == "" || params[:password] == ""
       flash[:message] = "Sorry, can you make sure to fill out all three fields: Name, Email, and Password?"
       redirect to 'signup'
-    elsif taken_name.present?
-        flash[:message] ="Oops, sorry but that name is already taken!"
-        redirect to 'signup'
-    elsif taken_email.present?
-        flash[:message] ="Oops, sorry but that email address is already taken!"
-        redirect to 'signup'
-    elsif logged_in?
-      redirect to '/library'
+    end
+
+    if !User.new(:username => params[:username], :password => params[:password]).valid?
+      flash[:message] ="Oops, sorry but that name is already taken!"
+      redirect to 'signup'
+    elsif !User.new(:email => params[:email], :password => params[:password]).valid?
+      flash[:message] ="Oops, sorry but that email address is already taken!"
+      redirect to 'signup'
     else
       @user = User.new(:username => params[:username], :email => params[:email], :password => params[:password])
       @user.save
