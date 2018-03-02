@@ -18,11 +18,6 @@ class BooksController < ApplicationController
 
   post '/books' do
     if logged_in?
-      taken_book_title = Book.find_by(:title => params[:book][:title])
-      if taken_book_title.present?
-        flash[:message] = "Sorry, but that book title is already taken, please choose another title."
-        redirect to '/books/new'
-      end
       @book = current_user.books.build(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
       if @book.year_published == ""
         @book.year_published = nil
@@ -55,6 +50,7 @@ class BooksController < ApplicationController
       if @book.save
         redirect to "/books"
       else
+        flash[:message] = "Sorry, but that book title is already taken, please choose another title."
         redirect to "/books/new"
       end
     end
@@ -86,14 +82,12 @@ class BooksController < ApplicationController
   patch '/books/:slugtitle' do
     if logged_in?
       @book = Book.find_by_slugtitle(params[:slugtitle])
-      raise params.inspect
-      title_already_in_use = Book.where(:title => params[:book][:title])
-      if title_already_in_use.book_id != @book.book_id
-        flash[:message] = "Sorry, but that book title is already taken, please choose another title."
-        redirect to '/books/new'
-      end
       if @book.user == current_user
-        @book.update(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
+        if @book.update(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id]) != true
+          flash[:message] = "Sorry, but that book title is already taken, please choose another title."
+          redirect to '/books/new' #<= You can't redirect to the '/books/:slugtitle/edit for some reason...even if you are logged in as the user that created it.'
+        end
+
         if @book.year_published == ""
           @book.year_published = nil #<= so this activates the <<hypothetical_date_of_publication>> method so if you don't know when the book was published, it will estimate that for you.
         end
