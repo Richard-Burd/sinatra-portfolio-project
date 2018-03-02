@@ -11,14 +11,15 @@ class BooksController < ApplicationController
     if logged_in?
       erb :'books/create_book'
     else
-      flash[:message] ="Oops, sorry but you must login below or sign up here first before creating a new book."
+      flash[:message_for_login_page] ="Oops, sorry but you must login below or sign up here first before creating a new book."
       redirect to '/login'
     end
   end
 
   post '/books' do
     if logged_in?
-      @book = current_user.books.build(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id])
+      @book = current_user.books.build(title: params[:title], topics: params[:topics],
+      year_published: params[:year_published], author_id: params[:author_id])
       if @book.year_published == ""
         @book.year_published = nil
       end
@@ -55,7 +56,7 @@ class BooksController < ApplicationController
         end
         redirect to "/books"
       else
-        flash[:message] = "Sorry, but that book title is already taken, please choose another title."
+        flash[:message_for_new_book_page] = "Sorry, but that book title is already taken, please choose another title."
         redirect to "/books/new"
       end
     end
@@ -86,7 +87,7 @@ class BooksController < ApplicationController
     if logged_in?
       @book = Book.find_by_slugtitle(params[:slugtitle])
       if @book.update(title: params[:book][:title], topics: params[:book][:topics], year_published: params[:book][:year_published], author_id: params[:book][:author_id]) != true
-        flash[:message] = "Sorry, but that book title is already taken, please choose another title."
+        flash[:message_for_new_book_page] = "Sorry, but that book title is already taken, please choose another title."
         redirect to '/books/new' #<= You can't redirect to the '/books/:slugtitle/edit for some reason...even if you are logged in as the user that created it.'
       end
 
