@@ -36,7 +36,7 @@
 <% lang_array = @languages.sort_by {|lang_obj| lang_obj.name} %>
   <ol style="font-size:120%; color: grey">
     <%lang_array.each.each do |language| language_id = language.id %>
-        <li><b><input type="checkbox" name="booklanguage[langs][][language_id]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <li><b><input type="checkbox" name="langs[][language_id]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
     <%end%>
   </ol>
   <br></br>

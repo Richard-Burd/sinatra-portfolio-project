@@ -25,14 +25,8 @@ class BooksController < ApplicationController
       end
       @book.unknown_author
 
-      # I'm not sure I need this since I have a line that says:
-      # @book = current_user.books.build
-      @book.user_id = session[:user_id]
-
-      # I need to save the book here to instantiate the
-      # code associating the new book to the join tables
       if @book.save
-        params[:booklanguage][:langs].each do |details|
+        params[:langs].each do |details|
           BookLanguage.create(details)
         end
 
