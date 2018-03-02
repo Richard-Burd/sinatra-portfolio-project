@@ -77,8 +77,6 @@ class BooksController < ApplicationController
     end
   end
 
-  # ///////////////// everything above is corrected
-
   patch '/books/:slugtitle' do
     if logged_in?
       @book = Book.find_by_slugtitle(params[:slugtitle])
