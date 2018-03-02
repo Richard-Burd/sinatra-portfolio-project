@@ -24,30 +24,35 @@ class BooksController < ApplicationController
       end
       @book.unknown_author
 
-      params[:booklanguage][:langs].each do |details|
-        BookLanguage.create(details)
-      end
+      # I'm not sure I need this since I have a line that says:
+      # @book = current_user.books.build
+      @book.user_id = session[:user_id]
 
-      BookLanguage.all.each do |booklanguage|
-        if booklanguage.book_id == nil
-          booklanguage.book_id = Book.last.id
-          booklanguage.save
-        end
-      end
-
-#     Ok, so this 'genre' thingy is just the same as the 'language' one above.
-      params[:bookgenre][:gens].each do |details|
-        BookGenre.create(details)
-      end
-
-      BookGenre.all.each do |bookgenre|
-        if bookgenre.book_id == nil
-          bookgenre.book_id = Book.last.id
-          bookgenre.save
-        end
-      end
-
+      # I need to save the book here to instantiate the
+      # code associating the new book to the join tables
       if @book.save
+        params[:booklanguage][:langs].each do |details|
+          BookLanguage.create(details)
+        end
+
+        BookLanguage.all.each do |booklanguage|
+          if booklanguage.book_id == nil
+            booklanguage.book_id = Book.last.id
+            booklanguage.save
+          end
+        end
+
+      #     Ok, so this 'genre' thingy is just the same as the 'language' one above.
+        params[:bookgenre][:gens].each do |details|
+          BookGenre.create(details)
+        end
+
+        BookGenre.all.each do |bookgenre|
+          if bookgenre.book_id == nil
+            bookgenre.book_id = Book.last.id
+            bookgenre.save
+          end
+        end
         redirect to "/books"
       else
         flash[:message] = "Sorry, but that book title is already taken, please choose another title."
@@ -90,7 +95,6 @@ class BooksController < ApplicationController
           @book.year_published = nil #<= so this activates the <<hypothetical_date_of_publication>> method so if you don't know when the book was published, it will estimate that for you.
         end
         @book.unknown_author         #<= when you create a new author named "Unknown" and then you list
-        @book.user_id = session[:user_id]
         @book.save
 
         # first, you have to delete all BookLanguages with associations of the current book, this is in the "edit" post, but not in the "create" post.
