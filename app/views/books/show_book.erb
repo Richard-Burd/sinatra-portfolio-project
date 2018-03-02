@@ -37,6 +37,9 @@
 
 <% if logged_in? && @book.user_id == session[:user_id] %>
   <a href="/books/<%=@book.slugtitle%>/edit">Edit This Book</a>
-  <br>
-  <a href="/books/<%=@book.slugtitle%>/delete">Delete This Book</a>
+<br>
+  <form action="<%=@book.slugtitle%>/delete" method="post">
+    <input id="hidden" type="hidden" name="_method" value="DELETE">
+    <input type="submit" style="font-size:60%; color: #297b5c;" value="Delete This Book"/>
+  </form>
 <% end %>
