@@ -70,6 +70,7 @@ class BooksController < ApplicationController
       if @book && @book.user == current_user
         erb :'books/edit_book'
       else
+        flash[:books_index_page_message] = "Sorry, but you don't have permission to edit a book you didn't create."
         redirect to '/books'
       end
     else
@@ -89,7 +90,13 @@ class BooksController < ApplicationController
         @book.year_published = nil #<= so this activates the <<hypothetical_date_of_publication>> method so if you don't know when the book was published, it will estimate that for you.
       end
       @book.unknown_author         #<= when you create a new author named "Unknown" and then you list
-      @book.save
+
+      if @book && @book.user == current_user # is this the same as: @book.user_id == current_user.id -?
+        @book.save
+      else
+        flash[:message_for_login_page] = "Sorry, but you don't have permission to edit a book you didn't create."
+        erb :'users/login'
+      end
 
       # first, you have to delete all BookLanguages with associations of the current book, this is in the "edit" post, but not in the "create" post.
       BookLanguage.all.each do |booklanguage|

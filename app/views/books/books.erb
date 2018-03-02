@@ -1,4 +1,13 @@
 <h1>Books</h1>
+
+<h3>
+  <font color="#33ccff">
+   <% if flash.has?(:books_index_page_message) %>
+    <%= flash[:books_index_page_message] %>
+   <% end %>
+  </font>
+</h3>
+
 <br>
   <ol style="font-size:140%">
     <% myarray = @books.sort_by {|obj| obj.title} %>
