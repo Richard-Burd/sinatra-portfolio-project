@@ -26,7 +26,7 @@ class BooksController < ApplicationController
       @book.unknown_author
 
       if @book.save
-        params[:langs].each do |details|
+        params[:book_languages].each do |details|
           BookLanguage.create(details)
         end
 
@@ -38,7 +38,7 @@ class BooksController < ApplicationController
         end
 
       #     Ok, so this 'genre' thingy is just the same as the 'language' one above.
-        params[:bookgenre][:gens].each do |details|
+        params[:book_genres].each do |details|
           BookGenre.create(details)
         end
 
