@@ -28093,6 +28093,87 @@
          id="path9092-527"
          style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
+    <linearGradient
+       x1="136.10957"
+       y1="278.315"
+       x2="184.32433"
+       y2="278.315"
+       id="linearGradient37063-1"
+       xlink:href="#linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7">
+      <stop
+         id="stop28493-8-6-7-5-1-9-75-1-0-0-6-4"
+         style="stop-color:#ff8080;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop28495-8-0-85-1-8-4-4-6-9-2-7-0"
+         style="stop-color:#ffda46;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="136.10957"
+       y1="278.315"
+       x2="184.32433"
+       y2="278.315"
+       id="linearGradient9217"
+       xlink:href="#linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="136.10957"
+       y1="278.315"
+       x2="184.32433"
+       y2="278.315"
+       id="linearGradient9217-8"
+       xlink:href="#linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7-2"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7-2">
+      <stop
+         id="stop28493-8-6-7-5-1-9-75-1-0-0-6-4-4"
+         style="stop-color:#ff8080;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop28495-8-0-85-1-8-4-4-6-9-2-7-0-5"
+         style="stop-color:#ffda46;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="136.10957"
+       y1="278.315"
+       x2="184.32433"
+       y2="278.315"
+       id="linearGradient9257"
+       xlink:href="#linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7-2"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="136.10957"
+       y1="278.315"
+       x2="184.32433"
+       y2="278.315"
+       id="linearGradient9217-1"
+       xlink:href="#linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7-1"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7-1">
+      <stop
+         id="stop28493-8-6-7-5-1-9-75-1-0-0-6-4-5"
+         style="stop-color:#ff8080;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop28495-8-0-85-1-8-4-4-6-9-2-7-0-2"
+         style="stop-color:#ffda46;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="136.10957"
+       y1="278.315"
+       x2="184.32433"
+       y2="278.315"
+       id="linearGradient9297"
+       xlink:href="#linearGradient28491-5-1-2-5-6-0-65-9-42-6-4-7-1"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
      id="metadata7">
@@ -28125,7 +28206,7 @@
        rx="4.1457019"
        ry="3.8182926"
        x="50.552319"
-       y="528.17468"
+       y="726.17468"
        id="rect8954-9-9-3-0-6-5"
        style="fill:#afe6a6;fill-opacity:1;fill-rule:nonzero;stroke:#6cbd58;stroke-width:0.56507981;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.26031954, 0.56507989;stroke-dashoffset:0" />
     <rect
@@ -28134,17 +28215,17 @@
        rx="2.7542145"
        ry="2.7542143"
        x="56.037914"
-       y="534.0899"
+       y="732.0899"
        id="rect8426-2-1-7-6-0-6-0-9-9-9-3"
        style="fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="70.66803"
-       y="541.99451"
+       y="739.99451"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-8-5-7-9-6-0-8-6-9-4-0-3"
        xml:space="preserve"
        style="font-size:3.52791309px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="70.66803"
-         y="541.99451"
+         y="739.99451"
          id="tspan9196-2-7-2-5-0-4-3-1-0-1-3-1-1-5-6-5-8-8-3"
          style="font-size:3.53306603px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">air_pressure</tspan></text>
     <rect
@@ -28153,7 +28234,7 @@
        rx="4.140069"
        ry="3.8131049"
        x="53.248608"
-       y="551.52094"
+       y="749.52094"
        id="rect8954-9-9-3-0-0-1-9-5-3-8-2-8-4-4-6"
        style="fill:#e9e0b5;fill-opacity:1;fill-rule:nonzero;stroke:#ae2d11;stroke-width:0.56431198;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.25724828, 0.56431205;stroke-dashoffset:0;display:inline" />
     <rect
@@ -28162,41 +28243,41 @@
        rx="2.7542145"
        ry="2.7542143"
        x="56.037914"
-       y="554.7226"
+       y="752.7226"
        id="rect8426-2-1-7-6-0-6-0-3-9-8-9-7"
        style="fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="67.856033"
-       y="562.78857"
+       y="760.78857"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-8-5-7-9-6-0-8-6-5-2-2-3-4"
        xml:space="preserve"
        style="font-size:3.52791309px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="67.856033"
-         y="562.78857"
+         y="760.78857"
          id="tspan9196-2-7-2-5-0-4-3-1-0-1-3-1-1-5-6-9-6-4-6-3"
          style="font-size:3.53306603px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">humidity</tspan></text>
     <text
        x="105.17255"
-       y="547.56793"
+       y="745.56793"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-3-5-0-8"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
          x="105.17255"
-         y="547.56793"
+         y="745.56793"
          id="tspan4026-3-2-3-1-78-5-6-0"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique"><tspan
    id="tspan9194"
    style="font-weight:bold;-inkscape-font-specification:Calibri Bold Oblique">abstraction box</tspan>; arrows going to</tspan><tspan
          x="105.17255"
-         y="554.4469"
+         y="752.4469"
          id="tspan7545-9-8"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">and from these boxes apply to all</tspan><tspan
          x="105.17255"
-         y="561.32587"
+         y="759.32587"
          id="tspan7549-8-0"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">elements found inside the box</tspan></text>
     <path
-       d="m 154.55704,539.97693 c -20.6344,-21.47837 -23.6702,-1.60802 -57.4396,-1.60802"
+       d="m 154.55704,737.97693 c -20.6344,-21.47837 -23.6702,-1.60802 -57.4396,-1.60802"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-6-4-8-2-5-3-0-40-2-0-9-1-7-3-1"
        style="fill:none;stroke:#6cbd58;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <rect
@@ -28205,26 +28286,26 @@
        rx="2.7504721"
        ry="2.7504718"
        x="56.037914"
-       y="575.35535"
+       y="773.35535"
        id="rect8426-2-1-7-6-0-6-0-88-3-7-7-7-0-3-5-8-2-6"
        style="fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
     <text
        x="73.54718"
-       y="583.24927"
+       y="781.24927"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-8-5-7-9-6-0-8-6-1-1-6-95-8-1-5-4-0-0-4"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="73.54718"
-         y="583.24927"
+         y="781.24927"
          id="tspan9196-2-7-2-5-0-4-3-1-0-1-3-1-1-5-6-2-3-2-5-5-2-9-2-1-7-8"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">password_digest</tspan></text>
     <path
-       d="m 182.19574,564.46586 c -11.1896,28.62102 -44.4252,7.65098 -88.2004,7.65098"
+       d="m 182.19574,762.46586 c -11.1896,28.62102 -44.4252,7.65098 -88.2004,7.65098"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-8-7-5"
        style="fill:none;stroke:#ae2d11;stroke-width:0.56468391;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart-9);marker-end:none" />
     <path
        d="m 540.88634,428.09055 a 7.2909441,7.2909441 0 1 1 -14.58189,0 7.2909441,7.2909441 0 1 1 14.58189,0 z"
-       transform="matrix(0.53170346,0,0,0.53170346,88.531972,649.65161)"
+       transform="matrix(0.53170346,0,0,0.53170346,90.162736,659.16053)"
        id="path5161-2-8-9-4-7-1-6-8"
        style="fill:#ebf3b0;fill-opacity:1;fill-rule:nonzero;stroke:#00891e;stroke-width:1.29999995;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline" />
     <text
@@ -28459,17 +28540,17 @@
        style="fill:#f3bab0;fill-opacity:1;fill-rule:nonzero;stroke:#893b00;stroke-width:1.29999995;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.63464345,0,0,0.35997912,-32.795046,374.9888)"
+       transform="matrix(0.63464345,0,0,0.35997912,-32.795046,524.9888)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-1-4"
        style="fill:#ffaaaa;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="76.070267"
-       y="475.94791"
+       y="625.94788"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-3-5"
        xml:space="preserve"
        style="font-size:3.52791309px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="76.070267"
-         y="475.94791"
+         y="625.94788"
          id="tspan9196-2-7-2-5-0-4-3-9-2-87-4"
          style="font-size:3.53306603px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">#taken?(position)</tspan></text>
     <rect
@@ -28478,37 +28559,37 @@
        rx="2.7542143"
        ry="2.7542143"
        x="69.605667"
-       y="495.82712"
+       y="697.82715"
        id="rect8426-1-1-2"
        style="fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="81.987747"
-       y="503.83301"
+       y="705.83301"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-8-52-98-6"
        xml:space="preserve"
        style="font-size:3.52791309px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="81.987747"
-         y="503.83301"
+         y="705.83301"
          id="tspan9196-2-7-2-5-0-4-3-1-7-6-6"
          style="font-size:3.53306603px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">@board</tspan></text>
     <text
        x="105.17256"
-       y="476.73807"
+       y="626.73804"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-86-5"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
          x="105.17256"
-         y="476.73807"
+         y="626.73804"
          id="tspan4026-5-3"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">Ruby instance method </tspan></text>
     <text
        x="105.17256"
-       y="504.94849"
+       y="706.94849"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-3-7"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
          x="105.17256"
-         y="504.94849"
+         y="706.94849"
          id="tspan4026-3-2-3-1-78-6"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">ActiveRecord row (in a table)</tspan></text>
     <text
@@ -28529,21 +28610,21 @@
        id="rect4727-7-7-1"
        style="fill:none;stroke:#050004;stroke-width:1.25;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <path
-       d="m 35.692153,689.41173 0,16.50942 c 0,0 59.997504,0 59.997504,0 l 0,-16.50942 z"
+       d="m 35.766053,536.4813 0,16.50942 c 0,0 59.9975,0 59.9975,0 l 0,-16.50942 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-3-8-02-3"
        style="fill:#cfc8f0;fill-opacity:1;stroke:none" />
     <text
-       x="65.951859"
-       y="696.41095"
+       x="66.025757"
+       y="543.48047"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-2-9-8-94"
        xml:space="preserve"
        style="font-size:5.99888086px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="65.951859"
-         y="696.41095"
+         x="66.025757"
+         y="543.48047"
          id="tspan9196-2-2-2-60-5"
          style="font-size:6.00764275px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">module Player</tspan><tspan
-         x="65.951859"
-         y="703.92053"
+         x="66.025757"
+         y="550.99005"
          id="tspan7551-7-2-62"
          style="font-size:6.00764275px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <path
@@ -28555,25 +28636,25 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-2"
        style="fill:none;stroke:#12770c;stroke-width:0.56468391;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <text
-       x="105.1291"
-       y="669.35443"
+       x="105.203"
+       y="516.42395"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-1-8-0"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-         x="105.1291"
-         y="669.35443"
+         x="105.203"
+         y="516.42395"
          id="tspan4026-3-2-3-1-3-2-0"
-         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">object model</tspan></text>
+         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">Ruby object model</tspan></text>
     <text
-       x="105.17256"
-       y="699.40649"
+       x="105.24646"
+       y="546.47601"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-9-2"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-         x="105.17256"
-         y="699.40649"
+         x="105.24646"
+         y="546.47601"
          id="tspan4026-3-2-3-1-7-13-4"
-         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">module</tspan></text>
+         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">Ruby module</tspan></text>
     <text
        x="105.38423"
        y="918.901"
@@ -28637,85 +28718,89 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-8-2-77-8-5-3-2-0-7-4"
        style="fill:none;stroke:#38cb41;stroke-width:1.38165998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-2);marker-end:none" />
     <path
-       d="m 35.692078,829.37995 0,6.82982 67.289792,-6.82982 z"
+       d="m 35.611943,487.29138 0,6.82982 67.289787,-6.82982 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-31-1-1-6-9"
        style="fill:#bdffaf;fill-opacity:1;stroke:none" />
     <path
-       d="m 35.692153,660.16811 0,16.50942 c 0,0 59.997504,0 59.997504,0 l 0,-16.50942 z"
+       d="m 35.766053,507.23768 0,16.50942 c 0,0 59.9975,0 59.9975,0 l 0,-16.50942 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-3-8-02-6-3"
        style="fill:#bdffaf;fill-opacity:1;stroke:none" />
     <text
-       x="65.951859"
-       y="667.16736"
+       x="66.025757"
+       y="514.23688"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-2-9-8-2-5"
        xml:space="preserve"
        style="font-size:5.99888086px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="65.951859"
-         y="667.16736"
+         x="66.025757"
+         y="514.23688"
          id="tspan9196-2-2-2-60-7-8"
          style="font-size:6.00764275px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class Player</tspan><tspan
-         x="65.951859"
-         y="674.67694"
+         x="66.025757"
+         y="521.74646"
          id="tspan7551-7-2-5-5"
          style="font-size:6.00764275px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New" /></text>
     <text
-       x="105.34723"
-       y="824.51019"
+       x="105.26711"
+       y="482.42166"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-4-5-3-4"
        xml:space="preserve"
        style="font-size:6.86963034px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-         x="105.34723"
-         y="824.51019"
+         x="105.26711"
+         y="482.42166"
          id="tspan20465-4"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">location in program directory</tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.74411642,0,0,0.35948998,-54.957947,518.48647)"
+       transform="matrix(0.74411642,0,0,0.35948998,-55.532279,550.4887)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-2"
        style="fill:url(#linearGradient10381);fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
-       x="71.126793"
-       y="619.12537"
+       x="70.552452"
+       y="651.12762"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-7"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="71.126793"
-         y="619.12537"
+         x="70.552452"
+         y="651.12762"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-9"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">has_secure_password</tspan></text>
     <text
-       x="105.7469"
-       y="620.84546"
+       x="105.17256"
+       y="648.84772"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-3-7-5-3"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-         x="105.7469"
-         y="620.84546"
+         x="105.17256"
+         y="648.84772"
          id="tspan4026-3-2-3-1-78-6-4-1"
-         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">ActiveRecord method</tspan></text>
+         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">ActiveRecord class,</tspan><tspan
+         x="105.17256"
+         y="655.72668"
+         id="tspan9228"
+         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">method, or validation</tspan></text>
     <text
-       x="105.7469"
-       y="644.84546"
+       x="105.17256"
+       y="678.84772"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-3-7-5-3-8"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-         x="105.7469"
-         y="644.84546"
+         x="105.17256"
+         y="678.84772"
          id="tspan4026-3-2-3-1-78-6-4-1-6"
-         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">Sinatra method</tspan></text>
+         style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">ActiveRecord Association</tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.61103599,0,0,0.35925472,-28.249746,542.55197)"
+       transform="matrix(0.61103599,0,0,0.35925472,-28.824079,576.5542)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-0-1-9-5-1-3-6-4-8-74-5"
        style="fill:url(#linearGradient10383);fill-opacity:1;fill-rule:nonzero;stroke:#8f8f8f;stroke-opacity:1" />
     <text
-       x="75.30098"
-       y="643.32263"
+       x="74.726646"
+       y="677.32489"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-0-2-0"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="75.30098"
-         y="643.32263"
+         x="74.726646"
+         y="677.32489"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-8-7-2"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New"><tspan
    id="tspan15325-1-4-8-7-8"
@@ -28935,7 +29020,7 @@
    id="tspan22077-3-2-6-08"
    style="font-weight:bold;-inkscape-font-specification:Courier New Bold">:books</tspan></tspan></text>
     <path
-       d="m 548.60002,761.12419 0,122.27507 -135.5045,0 0,-122.27507 z"
+       d="m 548.60002,761.12419 0,135.84617 -135.5045,0 0,-135.84617 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-31-1-1-8-0-7-1-1-1-1-3-8-8-3-2-1-0"
        style="fill:#bdffaf;fill-opacity:1;stroke:none" />
     <path
@@ -30006,7 +30091,7 @@
          id="tspan13529"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end </tspan></text>
     <path
-       d="m 935.90822,766.08479 0,51.51063 c 0,0 -165.3082,0 -165.3082,0 l 0,-51.51063 z"
+       d="m 935.90822,756.08479 0,51.51063 c 0,0 -165.3082,0 -165.3082,0 l 0,-51.51063 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-31-1-1-8-0-7-1-1-1-1-3-8-8-3-7-5-3-2-1"
        style="fill:#ffd3d7;fill-opacity:1;stroke:none" />
     <path
@@ -30211,80 +30296,80 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-8-0-9-6-5-1-8-5-3-1-6-9"
        style="fill:none;stroke:#529df4;stroke-width:0.56507993;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-612);marker-end:url(#Arrow2Mend)" />
     <path
-       d="m 933.48192,846.42882 0,57.7772 c 0,0 -162.8819,0 -162.8819,0 l 0,-57.7772 z"
+       d="m 933.48192,832.42882 0,72.58204 c 0,0 -162.8819,0 -162.8819,0 l 0,-72.58204 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-31-1-1-8-0-7-1-1-1-1-3-8-8-3-7-0-1-2-7"
        style="fill:#bdffaf;fill-opacity:1;stroke:none" />
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(1.0619485,0,0,0.35948998,695.28052,756.70519)"
+       transform="matrix(1.0619485,0,0,0.35948998,695.28052,742.70519)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-4-2-6-2-4-5-1-4-45-3"
        style="fill:url(#linearGradient37069);fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="852.65985"
-       y="858.22839"
+       y="844.22839"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-23-7-5-4-4-5-7-8-0-6-1-0-9-2-0-2-6-2-9"
        xml:space="preserve"
        style="font-size:5.99072981px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Courier New Bold"><tspan
          x="852.65985"
-         y="858.22839"
+         y="844.22839"
          id="tspan9196-2-3-4-8-5-8-8-1-9-0-0-1-2-1-8-0-9-2-9-5"
          style="font-size:5.99947977px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class User &lt; ActiveRecord::Base</tspan></text>
     <path
-       d="m 843.25412,846.42882 -4.7689,-11.9619 -63.1164,0 -4.7688,11.9619 z"
+       d="m 843.25412,832.42882 -4.7689,-11.9619 -63.1164,0 -4.7688,11.9619 z"
        id="path11360-0-4-6-7-4-4-1-4-9-4-1-7-3-4-3-8-4-0-9-98-1"
        style="fill:#98ce8d;fill-opacity:1;stroke:none" />
     <text
        x="776.43195"
-       y="842.3009"
+       y="828.3009"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-6-8-1-8-3-9-8-41-7-1-9-4-6-4-1-2-8-5-7-5-3-1-3-9"
        xml:space="preserve"
        style="font-size:6.86963034px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
          x="776.43195"
-         y="842.3009"
+         y="828.3009"
          id="tspan4026-3-2-3-1-7-14-4-9-8-1-0-2-4-1-8-3-1-1-6-7-5-6-9-5-4-8-5-8-0"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">./app/models/<tspan
    id="tspan27782"
    style="font-weight:bold;-inkscape-font-specification:Calibri Bold Oblique">user.rb</tspan></tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.58016195,0,0,0.35925472,696.41492,787.48509)"
+       transform="matrix(0.58016195,0,0,0.35925472,696.41492,773.48509)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-0-1-9-5-1-3-6-4-8-7-0-49-6-4-1"
        style="fill:url(#linearGradient37067);fill-opacity:1;fill-rule:nonzero;stroke:#8f8f8f;stroke-width:1.02626324;stroke-opacity:1" />
     <text
        x="794.62128"
-       y="888.25598"
+       y="874.25598"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-0-0-9-2-9-1-4"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="794.62128"
-         y="888.25598"
+         y="874.25598"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-8-3-0-9-8-5-0"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">has_many <tspan
    id="tspan22077-3-2-6-7"
    style="font-weight:bold;-inkscape-font-specification:Courier New Bold">:books</tspan></tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.58016195,0,0,0.35925472,696.41492,771.64899)"
+       transform="matrix(0.58016195,0,0,0.35925472,696.41492,757.64899)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-0-1-9-5-1-3-6-4-8-7-0-49-6-4-2"
        style="fill:url(#linearGradient37065);fill-opacity:1;fill-rule:nonzero;stroke:#8f8f8f;stroke-width:1.02626324;stroke-opacity:1" />
     <text
        x="794.62128"
-       y="872.4198"
+       y="858.4198"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-0-0-9-2-9-1-1"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="794.62128"
-         y="872.4198"
+         y="858.4198"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-8-3-0-9-8-5-04"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">has_many <tspan
    id="tspan22077-3-2-6-0"
    style="font-weight:bold;-inkscape-font-specification:Courier New Bold">:authors</tspan></tspan></text>
     <path
-       d="m 774.06969,871.88712 c -122.92197,0 -82.35902,-58.10846 -238.86067,-73.70401 -18.37894,-1.83148 -37.96573,-1.37778 -58.37221,-0.4651 -12.62474,0.56464 -7.11179,-9.37892 -20.63199,-9.37892"
+       d="m 774.06969,857.88712 c -122.92197,0 -82.35902,-44.10846 -238.86067,-59.70401 -18.37894,-1.83148 -37.96573,-1.37778 -58.37221,-0.4651 -12.62474,0.56464 -7.11179,-9.37892 -20.63199,-9.37892"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-6-4-8-2-5-3-0-40-2-0-9"
        style="fill:none;stroke:#12770c;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <path
-       d="m 773.77296,887.00412 c -209.91451,0 -121.40966,-185.83071 -317.56824,-185.80033"
+       d="m 773.77296,873.00412 c -209.91451,0 -121.40966,-171.83071 -317.56824,-171.80033"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-6-4-8-2-5-3-0-40-2-0-9-1"
        style="fill:none;stroke:#12770c;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <rect
@@ -30293,17 +30378,17 @@
        rx="2.7504718"
        ry="2.7504718"
        x="833.36591"
-       y="868.87122"
+       y="854.87122"
        id="rect8426-2-1-7-6-0-6-0-88-8-0-9"
        style="fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="844.32465"
-       y="877.2655"
+       y="863.2655"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-8-5-7-9-6-0-8-6-1-6-1-5-3"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="844.32465"
-         y="877.2655"
+         y="863.2655"
          id="tspan9196-2-7-2-5-0-4-3-1-0-1-3-1-1-5-6-2-0-0-9-8"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">email</tspan></text>
     <path
@@ -30358,44 +30443,44 @@
        style="fill:none;stroke:#ff001b;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart-9);marker-end:none" />
     <text
        x="936.63226"
-       y="848.43506"
+       y="834.43506"
        id="text10319-0-0-4-6-8-8-2-18"
        xml:space="preserve"
        style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.40243901;fill:#ff00ff;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
          x="936.63226"
-         y="848.43506"
+         y="834.43506"
          id="tspan11511-9-4-6-9"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class CreateUsers &lt; ActiveRecord::Migration[5.1]</tspan><tspan
          x="936.63226"
-         y="852.6181"
+         y="838.6181"
          id="tspan11570-0-6-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  def change</tspan><tspan
          x="936.63226"
-         y="856.80121"
+         y="842.80121"
          id="tspan11624-5-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    create_table :users do |t| </tspan><tspan
          x="936.63226"
-         y="860.98425"
+         y="846.98425"
          id="tspan11626-7-0"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      t.string :username </tspan><tspan
          x="936.63226"
-         y="865.16736"
+         y="851.16736"
          id="tspan11628-5-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      t.string :email </tspan><tspan
          x="936.63226"
-         y="869.3504"
+         y="855.3504"
          id="tspan19306-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      t.string :password_digest </tspan><tspan
          x="936.63226"
-         y="873.53345"
+         y="859.53345"
          id="tspan11633-1-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    end </tspan><tspan
          x="936.63226"
-         y="877.71655"
+         y="863.71655"
          id="tspan11572-7-2-0"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  end</tspan><tspan
          x="936.63226"
-         y="881.8996"
+         y="867.8996"
          id="tspan11574-6-0-67"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end</tspan></text>
     <rect
@@ -30404,17 +30489,17 @@
        rx="2.7504721"
        ry="2.7504718"
        x="863.1767"
-       y="868.87122"
+       y="854.87122"
        id="rect8426-2-1-7-6-0-6-0-88-3-7-7-7-0-3-6-7"
        style="fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="873.44452"
-       y="876.95459"
+       y="862.95459"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-8-5-7-9-6-0-8-6-1-1-6-95-8-1-5-0-0"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="873.44452"
-         y="876.95459"
+         y="862.95459"
          id="tspan9196-2-7-2-5-0-4-3-1-0-1-3-1-1-5-6-2-3-2-5-5-2-9-3-5"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">username</tspan></text>
     <rect
@@ -30423,17 +30508,17 @@
        rx="2.7504721"
        ry="2.7504718"
        x="891.5954"
-       y="868.87122"
+       y="854.87122"
        id="rect8426-2-1-7-6-0-6-0-88-3-7-7-7-0-3-5-8-2"
        style="fill:#ff8080;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="909.10468"
-       y="876.76514"
+       y="862.76514"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-8-5-7-9-6-0-8-6-1-1-6-95-8-1-5-4-0-0"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="909.10468"
-         y="876.76514"
+         y="862.76514"
          id="tspan9196-2-7-2-5-0-4-3-1-0-1-3-1-1-5-6-2-3-2-5-5-2-9-2-1-7"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">password_digest</tspan></text>
     <text
@@ -30552,17 +30637,17 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end</tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.74411642,0,0,0.35948998,775.90592,793.35439)"
+       transform="matrix(0.74411642,0,0,0.35948998,775.80471,793.9279)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-5"
        style="fill:url(#linearGradient37063);fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
-       x="901.99042"
-       y="893.99353"
+       x="901.88922"
+       y="894.56702"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-6"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="901.99042"
-         y="893.99353"
+         x="901.88922"
+         y="894.56702"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-0"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">has_secure_password</tspan></text>
     <text
@@ -30611,28 +30696,40 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end  </tspan></text>
     <text
        x="936.23761"
-       y="886.80835"
+       y="872.80835"
        id="text10319-0-0-4-6-8-8-2-18-5-25-0-1-1-4-1-1"
        xml:space="preserve"
        style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.40243901;fill:#447821;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
          x="936.23761"
-         y="886.80835"
+         y="872.80835"
          id="tspan32068-0-7-5-5-4"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class User &lt; ActiveRecord::Base</tspan><tspan
          x="936.23761"
-         y="890.99139"
+         y="876.99139"
          id="tspan13273-7-3"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  has_many :authors</tspan><tspan
          x="936.23761"
-         y="895.1745"
+         y="881.1745"
          id="tspan13337"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  has_many :books</tspan><tspan
          x="936.23761"
-         y="899.35754"
+         y="885.35754"
          id="tspan13339"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  has_secure_password  </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  has_secure_password</tspan><tspan
          x="936.23761"
-         y="903.54065"
+         y="889.54065"
+         id="tspan9322"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><tspan
+         x="936.23761"
+         y="893.72369"
+         id="tspan9324"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :username, uniqueness: true</tspan><tspan
+         x="936.23761"
+         y="897.90674"
+         id="tspan9326"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :email, uniqueness: true  </tspan><tspan
+         x="936.23761"
+         y="902.08984"
          id="tspan32066-1-2-1-6-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end  </tspan></text>
     <text
@@ -30659,71 +30756,71 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end </tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(1.0619485,0,0,0.35948998,702.88892,676.36119)"
+       transform="matrix(1.0619485,0,0,0.35948998,702.88892,666.36119)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-4-2-6-2-4-5-1-4-3-6-4"
        style="fill:url(#linearGradient36368-5);fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="850.65991"
-       y="777.8844"
+       y="767.8844"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-23-7-5-4-4-5-7-8-0-6-1-0-9-2-0-2-6-7-6-9"
        xml:space="preserve"
        style="font-size:5.99072981px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Courier New Bold"><tspan
          x="850.65991"
-         y="777.8844"
+         y="767.8844"
          id="tspan9196-2-3-4-8-5-8-8-1-9-0-0-1-2-1-8-0-9-2-0-6-9"
          style="font-size:5.99947977px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class BookGenre &lt; ActiveRecord::Base</tspan></text>
     <path
-       d="m 865.25412,766.08479 -4.7689,-11.9619 -85.1164,0 -4.7688,11.9619 z"
+       d="m 865.25412,756.08479 -4.7689,-11.9619 -85.1164,0 -4.7688,11.9619 z"
        id="path11360-0-4-6-7-4-4-1-4-9-4-1-7-3-4-3-8-4-0-9-9-2-3"
        style="fill:#ff9e9c;fill-opacity:1;stroke:none" />
     <text
        x="776.43201"
-       y="761.95691"
+       y="751.95691"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-6-8-1-8-3-9-8-41-7-1-9-4-6-4-1-2-8-5-7-5-3-1-5-9-7"
        xml:space="preserve"
        style="font-size:6.86963034px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
          x="776.43201"
-         y="761.95691"
+         y="751.95691"
          id="tspan4026-3-2-3-1-7-14-4-9-8-1-0-2-4-1-8-3-1-1-6-7-5-6-9-5-4-8-5-5-0-6"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">./app/models/<tspan
    id="tspan22075-8-8-9-8-0-8-4-5"
    style="font-weight:bold;-inkscape-font-specification:Calibri Bold Oblique">book_genre.rb</tspan></tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.59064111,0,0,0.35925472,699.88651,706.02309)"
+       transform="matrix(0.59064111,0,0,0.35925472,699.88651,696.02309)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-0-1-9-5-1-3-6-4-8-7-0-4-1-2-3-3-3-9-87"
        style="fill:url(#linearGradient36370-1);fill-opacity:1;fill-rule:nonzero;stroke:#8f8f8f;stroke-width:1.01711845;stroke-opacity:1" />
     <text
        x="799.9397"
-       y="806.64301"
+       y="796.64301"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-0-0-9-0-2-1-4-6-7-3-8"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="799.9397"
-         y="806.64301"
+         y="796.64301"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-8-3-0-7-5-1-5-4-8-1-9"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">belongs_to <tspan
    id="tspan22077-6-7-3-0-9-3-1-7"
    style="font-weight:bold;-inkscape-font-specification:Courier New Bold">:genre</tspan></tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.59064111,0,0,0.35925472,699.88651,690.32769)"
+       transform="matrix(0.59064111,0,0,0.35925472,699.88651,680.32769)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-0-1-9-5-1-3-6-4-8-7-0-4-1-2-3-2-2-7-9-7"
        style="fill:url(#linearGradient36372-2);fill-opacity:1;fill-rule:nonzero;stroke:#8f8f8f;stroke-width:1.01711845;stroke-opacity:1" />
     <text
        x="800.47754"
-       y="791.09821"
+       y="781.09821"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-0-0-9-0-2-1-4-0-9-9-9-1"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="800.47754"
-         y="791.09821"
+         y="781.09821"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-8-3-0-7-5-1-5-3-3-3-5-6"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">belongs_to <tspan
    id="tspan22077-6-7-3-0-5-4-9-5-5"
    style="font-weight:bold;-inkscape-font-specification:Courier New Bold">:book</tspan></tspan></text>
     <path
-       d="m 820.53468,803.20589 c 9.2758,-3.1875 11.2845,-7.07739 0.4091,-10.51599"
+       d="m 820.53468,793.20589 c 9.2758,-3.1875 11.2845,-7.07739 0.4091,-10.51599"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-8-0-9-6-5-1-8-5-3-7-8-2-5"
        style="fill:none;stroke:#ff001b;stroke-width:0.56507999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-612);marker-end:url(#Arrow2Mend)" />
     <path
@@ -30767,11 +30864,11 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-1-6-4-8-3-7-3-0-8-2-1-8"
        style="fill:none;stroke:#ff001b;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart-9);marker-end:none" />
     <path
-       d="m 477.0731,821.47446 c 39.1257,0 15.85492,11.92776 103.76318,11.92776 110.93252,0 136.66184,-43.08855 199.70787,-43.08855"
+       d="m 477.0731,821.47446 c 39.1257,0 15.85492,11.92776 103.76318,11.92776 110.93252,0 136.66184,-53.08855 199.70787,-53.08855"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-1-6-4-8-3-7-60-6-5-6-2"
        style="fill:none;stroke:#ff001b;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart-9);marker-end:none" />
     <path
-       d="m 520.29222,839.64742 c 119.81886,14 123.50546,-13.5167 252.99663,-13.5167 257.27005,0 214.32984,-12.4441 317.66865,-12.4441"
+       d="m 520.29222,839.64742 c 119.81886,14 171.62118,-23.5167 252.99663,-23.5167 175.535,0 231.91055,-2.4441 317.66865,-2.4441"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-8-0-9-6-5-1-8-5-3-8-8-4"
        style="fill:none;stroke:#ff001b;stroke-width:0.56507999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-612);marker-end:url(#Arrow2Mend)" />
     <path
@@ -30815,67 +30912,67 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-1-6-4-8-3-7-60-6-5-2-5"
        style="fill:none;stroke:#ff001b;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart-9);marker-end:none" />
     <path
-       d="m 1090.9412,797.2174 c -141.25524,0 -199.56809,8.79167 -271.47832,8.79167"
+       d="m 1090.9412,797.2174 c -63.2389,0 -81.2344,-6.96489 -116.59681,-7.10692 -82.57548,-0.33165 -99.77722,5.89859 -154.88151,5.89859"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-1-6-4-8-3-7-60-6-5-0-4"
        style="fill:none;stroke:#ff001b;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart-9);marker-end:none" />
     <text
        x="938.94958"
-       y="767.54718"
+       y="757.54718"
        id="text10319-0-0-4-6-8-8-2-18-5-2-8-9-6"
        xml:space="preserve"
        style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.40243901;fill:#ff00ff;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
          x="938.94958"
-         y="767.54718"
+         y="757.54718"
          id="tspan11511-9-4-6-9-6-6-7-0-0"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class CreateBookGenres &lt; ActiveRecord::Migration[5.1]</tspan><tspan
          x="938.94958"
-         y="771.73022"
+         y="761.73022"
          id="tspan11570-0-6-2-1-5-4-5-6"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  def change</tspan><tspan
          x="938.94958"
-         y="775.91333"
+         y="765.91333"
          id="tspan11624-5-5-8-2-0-7-6"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    create_table :book_genres do |t| </tspan><tspan
          x="938.94958"
-         y="780.09637"
+         y="770.09637"
          id="tspan29982-2-0-4-1"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#782121;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      t.integer :book_id</tspan><tspan
          x="938.94958"
-         y="784.27948"
+         y="774.27948"
          id="tspan30090-7-8"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#782121;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      t.integer :genre_id  </tspan><tspan
          x="938.94958"
-         y="788.46252"
+         y="778.46252"
          id="tspan11633-1-2-6-2-5-6-4"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    end </tspan><tspan
          x="938.94958"
-         y="792.64557"
+         y="782.64557"
          id="tspan11572-7-2-0-5-8-9-6-9"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  end</tspan><tspan
          x="938.94958"
-         y="796.82867"
+         y="786.82867"
          id="tspan11574-6-0-67-9-8-9-3-6"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end</tspan></text>
     <text
        x="938.07214"
-       y="805.24902"
+       y="795.24902"
        id="text10319-0-0-4-6-8-8-2-18-5-25-0-1-1-4-1-3"
        xml:space="preserve"
        style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.40243901;fill:#447821;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
          x="938.07214"
-         y="805.24902"
+         y="795.24902"
          id="tspan32068-0-7-5-5-7"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class BookGenre &lt; ActiveRecord::Base</tspan><tspan
          x="938.07214"
-         y="809.43207"
+         y="799.43207"
          id="tspan13233-7-2-8"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  belongs_to :book</tspan><tspan
          x="938.07214"
-         y="813.61517"
+         y="803.61517"
          id="tspan13273-7-8"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  belongs_to :genre</tspan><tspan
          x="938.07214"
-         y="817.79822"
+         y="807.79822"
          id="tspan32066-1-2-1-6-29"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end  </tspan></text>
     <path
@@ -31501,64 +31598,6 @@
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">./lib/<tspan
    id="tspan22130"
    style="font-weight:bold;-inkscape-font-specification:Calibri Bold Oblique">displays.rb</tspan></tspan></text>
-    <text
-       x="1086.8917"
-       y="986.05383"
-       id="text10319-0-0-4-6-8-8-2-18-5-54-7"
-       xml:space="preserve"
-       style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.40243901;fill:#7f2aff;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
-         x="1086.8917"
-         y="986.05383"
-         id="tspan22309"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">module Displays</tspan><tspan
-         x="1086.8917"
-         y="990.23688"
-         id="tspan24384"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  module InstanceMethods</tspan><tspan
-         x="1086.8917"
-         y="994.41998"
-         id="tspan24386"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    # This will display the date as either B.C.E. or C.E</tspan><tspan
-         x="1086.8917"
-         y="998.60303"
-         id="tspan24388"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    def display_date_as_bce_or_ce(number)</tspan><tspan
-         x="1086.8917"
-         y="1002.7861"
-         id="tspan24390"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      if number &gt;= 1</tspan><tspan
-         x="1086.8917"
-         y="1006.9692"
-         id="tspan24392"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">        number.to_s + &quot; C.E.&quot;</tspan><tspan
-         x="1086.8917"
-         y="1011.1522"
-         id="tspan24394"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      else</tspan><tspan
-         x="1086.8917"
-         y="1015.3353"
-         id="tspan24396"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">        number.abs.to_s + &quot; B.C.E.&quot;</tspan><tspan
-         x="1086.8917"
-         y="1019.5184"
-         id="tspan24398"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      end</tspan><tspan
-         x="1086.8917"
-         y="1023.7015"
-         id="tspan24400"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    end</tspan><tspan
-         x="1086.8917"
-         y="1027.8845"
-         id="tspan24402"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  end</tspan><tspan
-         x="1086.8917"
-         y="1032.0676"
-         id="tspan24404"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end</tspan><tspan
-         x="1086.8917"
-         y="1036.2506"
-         id="tspan24406"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /></text>
     <path
        d="m 1155.4902,869.55652 0,24.7811 c 0,0 -68.6541,0 -68.6541,0 l 0,-24.7811 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-31-1-1-8-0-7-1-1-1-1-3-8-8-3-7-5-3-2-5-5"
@@ -31690,77 +31729,81 @@
          x="551.80414"
          y="840.90686"
          id="tspan10064"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  # This supposes a book with no publication date was</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :title, uniqueness: true</tspan><tspan
          x="551.80414"
          y="843.79114"
+         id="tspan9320"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  # This supposes a book with no publication date was</tspan><tspan
+         x="551.80414"
+         y="846.67548"
          id="tspan10066"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  # written by its author in the last quarter of her</tspan><tspan
          x="551.80414"
-         y="846.67548"
+         y="849.55975"
          id="tspan10068"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  # or his lifetime</tspan><tspan
          x="551.80414"
-         y="849.55975"
+         y="852.44403"
          id="tspan10070"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  def hypothetical_date_of_publication</tspan><tspan
          x="551.80414"
-         y="852.44403"
+         y="855.32837"
          id="tspan10072"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    if self.author.name != &quot;unknown&quot; &amp;&amp; self.author.name != &quot;Unknown&quot; &amp;&amp; self.author.name != nil</tspan><tspan
          x="551.80414"
-         y="855.32837"
+         y="858.21265"
          id="tspan10074"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      if self.author.birth_date.negative? &amp;&amp; self.author.death_date.positive?</tspan><tspan
          x="551.80414"
-         y="858.21265"
+         y="861.09698"
          id="tspan10076"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">        total_years_alive = self.author.death_date + self.author.birth_date</tspan><tspan
          x="551.80414"
-         y="861.09698"
+         y="863.98126"
          id="tspan10078"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      else</tspan><tspan
          x="551.80414"
-         y="863.98126"
+         y="866.8656"
          id="tspan10080"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">        total_years_alive = self.author.death_date - self.author.birth_date</tspan><tspan
          x="551.80414"
-         y="866.8656"
+         y="869.74988"
          id="tspan10082"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      end</tspan><tspan
          x="551.80414"
-         y="869.74988"
+         y="872.63422"
          id="tspan10084"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      probable_start_date = total_years_alive * 0.75 + self.author.birth_date</tspan><tspan
          x="551.80414"
-         y="872.63422"
+         y="875.51849"
          id="tspan10086"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      probable_end_date = self.author.death_date - 2</tspan><tspan
          x="551.80414"
-         y="875.51849"
+         y="878.40283"
          id="tspan10088"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      &quot;A.) Probably between #{display_date_as_bce_or_ce(probable_start_date.round)} and #{display_date_as_bce_or_ce(probable_end_date)}&quot;</tspan><tspan
          x="551.80414"
-         y="878.40283"
+         y="881.28711"
          id="tspan10090"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    else</tspan><tspan
          x="551.80414"
-         y="881.28711"
+         y="884.17139"
          id="tspan10092"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      &quot;B.) Probably between #{display_date_as_bce_or_ce(self.author.birth_date)} and #{display_date_as_bce_or_ce(self.author.death_date)}&quot;</tspan><tspan
          x="551.80414"
-         y="884.17139"
+         y="887.05573"
          id="tspan10094"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    end</tspan><tspan
          x="551.80414"
-         y="887.05573"
+         y="889.94"
          id="tspan10096"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  end</tspan><tspan
          x="551.80414"
-         y="889.94"
+         y="892.82434"
          id="tspan10098"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end</tspan><tspan
          x="551.80414"
-         y="892.82434"
+         y="895.70862"
          id="tspan10100"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /></text>
     <path
@@ -31813,17 +31856,17 @@
          id="tspan21963-1"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">          via method being pointed to</tspan></text>
     <path
-       d="m 92.346177,829.37995 -4.7689,-11.9619 -47.116399,0 -4.7688,11.9619 z"
+       d="m 92.266043,487.29138 -4.7689,-11.9619 -47.1164,0 -4.7688,11.9619 z"
        id="path11360-0-4-6-7-4-4-1-4-9-4-1-7-3-4-3-8-9-1-0-0"
        style="fill:#98ce8d;fill-opacity:1;stroke:none" />
     <text
-       x="41.52412"
-       y="825.25189"
+       x="41.443981"
+       y="483.16336"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-6-8-1-8-3-9-8-41-7-1-9-4-6-4-1-2-8-5-7-3-2-3-4"
        xml:space="preserve"
        style="font-size:6.86963034px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-         x="41.52412"
-         y="825.25189"
+         x="41.443981"
+         y="483.16336"
          id="tspan4026-3-2-3-1-7-14-4-9-8-1-0-2-4-1-8-3-1-1-6-7-5-6-9-5-9-1-9-8"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">./lib/project/<tspan
    id="tspan27587"
@@ -31952,89 +31995,89 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-6-4-8-2-5-3-0-4-7-9-5-8"
        style="fill:none;stroke:#12770c;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <path
-       d="m 1286.0599,901.19942 c -9.1313,48.4707 13.8058,131.02828 -143.0588,131.02828 -522.20273,0 -612.19929,-117.46848 -612.19929,-148.82844"
+       d="m 1286.0599,901.19942 c -9.1313,48.4707 13.8058,131.02828 -143.0588,131.02828 -522.20273,0 -612.19929,-103.89738 -612.19929,-135.25734"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-8-2-77-8-5-3-2-0-7-4-4"
        style="fill:none;stroke:#38cb41;stroke-width:1.38165998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-2);marker-end:none" />
     <path
-       d="m 35.692152,727.92115 0,16.50942 c 0,0 59.997505,0 59.997505,0 l 0,-16.50942 z"
+       d="m 35.766043,572.99072 0,16.50942 c 0,0 59.99751,0 59.99751,0 l 0,-16.50942 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-3-8-02-3-1"
        style="fill:#ffd3d7;fill-opacity:1;stroke:none" />
     <text
-       x="65.951859"
-       y="734.92035"
+       x="66.025757"
+       y="579.98987"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-2-9-8-94-7"
        xml:space="preserve"
        style="font-size:5.99888086px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="65.951859"
-         y="734.92035"
+         x="66.025757"
+         y="579.98987"
          id="tspan7551-7-2-62-0"
          style="font-size:6.00764275px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class SongGenre</tspan></text>
     <path
-       d="m 35.692152,746.43057 0,16.50942 c 0,0 59.997505,0 59.997505,0 l 0,-16.50942 z"
+       d="m 35.766043,591.50014 0,16.50942 c 0,0 59.99751,0 59.99751,0 l 0,-16.50942 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-3-8-02-3-1-9"
        style="fill:#c7f0ff;fill-opacity:1;stroke:none" />
     <text
-       x="65.951859"
-       y="753.42975"
+       x="66.025757"
+       y="598.49927"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-2-9-8-94-7-4"
        xml:space="preserve"
        style="font-size:5.99888086px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="65.951859"
-         y="753.42975"
+         x="66.025757"
+         y="598.49927"
          id="tspan7551-7-2-62-0-8"
          style="font-size:6.00764275px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class SongGenre</tspan></text>
     <text
-       x="105.17256"
-       y="732.14923"
+       x="105.24646"
+       y="577.21875"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-9-2-8"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
-         x="105.17256"
-         y="732.14923"
+         x="105.24646"
+         y="577.21875"
          id="tspan4026-3-2-3-1-7-13-4-2"
-         style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Bold Oblique">object models for join tables</tspan><tspan
-         x="105.17256"
-         y="739.0282"
+         style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Bold Oblique">Ruby object models for join tables</tspan><tspan
+         x="105.24646"
+         y="584.09772"
          id="tspan23472"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">different color schemes (red &amp; blue)</tspan><tspan
-         x="105.17256"
-         y="745.90717"
+         x="105.24646"
+         y="590.97668"
          id="tspan23474"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">are used to visually differentiate their</tspan><tspan
-         x="105.17256"
-         y="752.78613"
+         x="105.24646"
+         y="597.85565"
          id="tspan23476"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">relations; there is no actual difference</tspan><tspan
-         x="105.17256"
-         y="759.66516"
+         x="105.24646"
+         y="604.73468"
          id="tspan23478"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">between red and blue join tables</tspan></text>
     <path
-       d="m 37.041993,776.14633 c 18.610001,-2.0677 37.208905,-4.193 56.854205,-0.7936"
+       d="m 37.041993,818.14633 c 18.610001,-2.0677 37.208905,-4.193 56.854205,-0.7936"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-2-9"
        style="fill:none;stroke:#ff001b;stroke-width:0.56468391;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <text
        x="104.96767"
-       y="777.86517"
+       y="819.86517"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-4-7-9-3-0-2"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
          x="104.96767"
-         y="777.86517"
+         y="819.86517"
          id="tspan4026-3-2-3-1-7-2-7-3-5-2-7"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">join table relations (red box)</tspan></text>
     <path
-       d="m 37.042001,791.14245 c 18.610001,-2.0677 37.208905,-4.193 56.854209,-0.7936"
+       d="m 37.042001,835.14245 c 18.610001,-2.0677 37.208905,-4.193 56.854209,-0.7936"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-2-9-3"
        style="fill:none;stroke:#529df4;stroke-width:0.56468391;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <text
        x="104.96767"
-       y="792.86127"
+       y="836.86127"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-4-7-9-3-0-2-3"
        xml:space="preserve"
        style="font-size:6.8789773px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
          x="104.96767"
-         y="792.86127"
+         y="836.86127"
          id="tspan4026-3-2-3-1-7-2-7-3-5-2-7-4"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">join table relations (blue box)</tspan></text>
     <path
@@ -32119,7 +32162,7 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-0-4-1-8"
        style="fill:none;stroke:#ad2d12;stroke-width:0.56391668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend-52);display:inline" />
     <path
-       d="m 415.91709,718.58112 c -35.54226,20.56521 -64.13606,60.91944 -64.13606,110.28268 0,47.99211 42.61056,76.10956 113.52283,76.10956 173.75859,0 220.32759,60.29946 305.29616,60.29946"
+       d="m 415.91709,718.58112 c -35.54226,20.56521 -64.13606,60.91944 -64.13606,110.28268 0,47.99211 32.23952,76.10956 65.52283,76.10956 173.75859,0 268.32759,60.29946 353.29616,60.29946"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-8-2-77-8-5-3-0-5-6-9"
        style="fill:none;stroke:#c0c0c0;stroke-width:1.38005471;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-2);marker-end:none;display:inline" />
     <text
@@ -32181,87 +32224,87 @@
          id="tspan24284"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ccaaff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">[14] pry(main)&gt;</tspan></text>
     <text
-       x="263.43799"
-       y="880.53351"
+       x="264.15015"
+       y="884.72388"
        id="text10319-0-0-4-6-8-8-2-18-5-2-4"
        xml:space="preserve"
        style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff00ff;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
-         x="263.43799"
-         y="880.53351"
+         x="264.15015"
+         y="884.72388"
          id="tspan11574-6-0-67-9-8-4"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold">[17:10:05] (master) sinatra-portfolio-project</tspan><tspan
-         x="263.43799"
-         y="884.71655"
+         x="264.15015"
+         y="888.90692"
          id="tspan23065"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold">// ♥ rake db:console</tspan><tspan
-         x="263.43799"
-         y="888.89966"
+         x="264.15015"
+         y="893.09003"
          id="tspan23067"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold">[1] pry(main)&gt; Author.find(1).languages</tspan><tspan
-         x="263.43799"
-         y="893.0827"
+         x="264.15015"
+         y="897.27307"
          id="tspan23069"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold">=&gt; [#&lt;Language:0x00000003e08a28 id: 1, name: &quot;Hebrew&quot;&gt;,</tspan><tspan
-         x="263.43799"
-         y="897.26581"
+         x="264.15015"
+         y="901.45618"
          id="tspan23071"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003e08780 id: 2, name: &quot;Aramaic&quot;&gt;,</tspan><tspan
-         x="263.43799"
-         y="901.44885"
+         x="264.15015"
+         y="905.63922"
          id="tspan23073"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003e085f0 id: 1, name: &quot;Hebrew&quot;&gt;,</tspan><tspan
-         x="263.43799"
-         y="905.6319"
+         x="264.15015"
+         y="909.82227"
          id="tspan23075"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003e08438 id: 1, name: &quot;Hebrew&quot;&gt;]</tspan><tspan
-         x="263.43799"
-         y="909.815"
+         x="264.15015"
+         y="914.00537"
          id="tspan23077"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold">[2] pry(main)&gt; Language.all</tspan><tspan
-         x="263.43799"
-         y="913.99805"
+         x="264.15015"
+         y="918.18842"
          id="tspan23079"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold">=&gt; [#&lt;Language:0x00000003d5abd0 id: 1, name: &quot;Hebrew&quot;&gt;,</tspan><tspan
-         x="263.43799"
-         y="918.18115"
+         x="264.15015"
+         y="922.37152"
          id="tspan23081"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003d5a9f0 id: 2, name: &quot;Aramaic&quot;&gt;,</tspan><tspan
-         x="263.43799"
-         y="922.3642"
+         x="264.15015"
+         y="926.55457"
          id="tspan23083"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003d5a810 id: 3, name: &quot;Arabic&quot;&gt;,</tspan><tspan
-         x="263.43799"
-         y="926.54724"
+         x="264.15015"
+         y="930.73761"
          id="tspan23085"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003d5a608 id: 4, name: &quot;Greek&quot;&gt;,</tspan><tspan
-         x="263.43799"
-         y="930.73035"
+         x="264.15015"
+         y="934.92072"
          id="tspan23087"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003d5a478 id: 5, name: &quot;Latin&quot;&gt;,</tspan><tspan
-         x="263.43799"
-         y="934.91339"
+         x="264.15015"
+         y="939.10376"
          id="tspan23089"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003d5a248 id: 6, name: &quot;Persian&quot;&gt;]</tspan><tspan
-         x="263.43799"
-         y="939.0965"
+         x="264.15015"
+         y="943.28687"
          id="tspan23091"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold">[3] pry(main)&gt; <tspan
    id="tspan23164"
    style="fill:#d35f5f">Author.find(1).languages.uniq</tspan></tspan><tspan
-         x="263.43799"
-         y="943.27954"
+         x="264.15015"
+         y="947.46991"
          id="tspan23093"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#de8787;font-family:Courier New;-inkscape-font-specification:Courier New Bold">=&gt; [#&lt;Language:0x00000003c98f08 id: 1, name: <tspan
    id="tspan23166"
    style="fill:#d35f5f">&quot;Hebrew&quot;</tspan>&gt;,</tspan><tspan
-         x="263.43799"
-         y="947.46259"
+         x="264.15015"
+         y="951.65295"
          id="tspan23095"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#de8787;font-family:Courier New;-inkscape-font-specification:Courier New Bold"> #&lt;Language:0x00000003c98dc8 id: 2, name: <tspan
    id="tspan23168"
    style="fill:#d35f5f">&quot;Aramaic&quot;</tspan>&gt;]</tspan><tspan
-         x="263.43799"
-         y="951.64569"
+         x="264.15015"
+         y="955.83606"
          id="tspan23097"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#ffaaaa;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /></text>
     <text
@@ -32274,5 +32317,135 @@
          y="467.29395"
          id="tspan5364-4-5-9-4"
          style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:5.38649178px;text-anchor:middle;fill:#999999;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Bold Oblique">Burd Antiquities Library - Object Models Illustrated</tspan></text>
+    <text
+       x="603.57544"
+       y="1037.9779"
+       id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-8-2-4-3-9-8-2-1"
+       xml:space="preserve"
+       style="font-size:14.48397446px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;display:inline;font-family:Sans"><tspan
+         x="604.29633"
+         y="1037.9779"
+         id="tspan5364-4-5-9-4-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:1.44179785px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Bold"><tspan
+   id="tspan9215"
+   style="font-style:normal;fill:#d35f5f;-inkscape-font-specification:Calibri Bold">The code for this diagram is available at:</tspan> https://github.com/Richard-Burd/sinatra-portfolio-project</tspan></text>
+    <path
+       d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
+       transform="matrix(0.34672345,0,0,0.32363915,529.18556,434.37438)"
+       id="path6547-1-6-8-9-5-7-2-0-6-4-3-4-4-2-1-5-2-2-3-17"
+       style="fill:#ffaaaa;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <text
+       x="588.01068"
+       y="525.08173"
+       id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-5-2-6-3-2-0-1-7-7-8-4"
+       xml:space="preserve"
+       style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
+         x="588.01068"
+         y="525.08173"
+         id="tspan9196-2-7-2-5-0-5-2-0-12-2-6-71-9-7-1-0"
+         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">slugtitle</tspan></text>
+    <text
+       x="1086.8917"
+       y="986.05383"
+       id="text10319-0-0-4-6-8-8-2-18-5-54-7"
+       xml:space="preserve"
+       style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.40243901;fill:#7f2aff;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
+         x="1086.8917"
+         y="986.05383"
+         id="tspan22309"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">module Displays</tspan><tspan
+         x="1086.8917"
+         y="990.23688"
+         id="tspan24384"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  module InstanceMethods</tspan><tspan
+         x="1086.8917"
+         y="994.41998"
+         id="tspan24386"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    # This will display the date as either B.C.E. or C.E</tspan><tspan
+         x="1086.8917"
+         y="998.60303"
+         id="tspan24388"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    def display_date_as_bce_or_ce(number)</tspan><tspan
+         x="1086.8917"
+         y="1002.7861"
+         id="tspan24390"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      if number &gt;= 1</tspan><tspan
+         x="1086.8917"
+         y="1006.9692"
+         id="tspan24392"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">        number.to_s + &quot; C.E.&quot;</tspan><tspan
+         x="1086.8917"
+         y="1011.1522"
+         id="tspan24394"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      else</tspan><tspan
+         x="1086.8917"
+         y="1015.3353"
+         id="tspan24396"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">        number.abs.to_s + &quot; B.C.E.&quot;</tspan><tspan
+         x="1086.8917"
+         y="1019.5184"
+         id="tspan24398"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      end</tspan><tspan
+         x="1086.8917"
+         y="1023.7015"
+         id="tspan24400"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    end</tspan><tspan
+         x="1086.8917"
+         y="1027.8845"
+         id="tspan24402"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  end</tspan><tspan
+         x="1086.8917"
+         y="1032.0676"
+         id="tspan24404"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end</tspan><tspan
+         x="1086.8917"
+         y="1036.2506"
+         id="tspan24406"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /></text>
+    <path
+       d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
+       transform="matrix(1.2356088,0,0,0.35948998,607.26961,793.9279)"
+       id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-5-9"
+       style="fill:url(#linearGradient9217);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <text
+       x="816.66479"
+       y="894.56708"
+       id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-6-4"
+       xml:space="preserve"
+       style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
+         x="816.66479"
+         y="894.56708"
+         id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-0-8"
+         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :username, uniqueness: true</tspan></text>
+    <path
+       d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
+       transform="matrix(1.151353,0,0,0.35948998,667.96799,779.89587)"
+       id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-5-9-5"
+       style="fill:url(#linearGradient9257);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <text
+       x="863.0813"
+       y="880.53503"
+       id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-6-4-1"
+       xml:space="preserve"
+       style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
+         x="863.0813"
+         y="880.53503"
+         id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-0-8-7"
+         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :email, uniqueness: true</tspan></text>
+    <path
+       d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
+       transform="matrix(1.1627914,0,0,0.35948998,259.77114,785.8848)"
+       id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-5-9-7"
+       style="fill:url(#linearGradient9297);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
+    <text
+       x="456.82336"
+       y="886.52399"
+       id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-6-4-6"
+       xml:space="preserve"
+       style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
+         x="456.82336"
+         y="886.52399"
+         id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-0-8-1"
+         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :title, uniqueness: true</tspan></text>
   </g>
 </svg>
