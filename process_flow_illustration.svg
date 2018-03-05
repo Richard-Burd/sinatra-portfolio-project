@@ -30095,80 +30095,80 @@
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-31-1-1-8-0-7-1-1-1-1-3-8-8-3-7-5-3-2-1"
        style="fill:#ffd3d7;fill-opacity:1;stroke:none" />
     <path
-       d="m 933.48192,932.77282 0,52.3821 c 0,0 -162.8819,0 -162.8819,0 l 0,-52.3821 z"
+       d="m 933.48192,950.77282 0,52.38208 c 0,0 -162.8819,0 -162.8819,0 l 0,-52.38208 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-31-1-1-8-0-7-1-1-1-1-3-8-8-3-7-0-1-2"
        style="fill:#c7f0ff;fill-opacity:1;stroke:none" />
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(1.0619485,0,0,0.35948998,710.76882,843.04922)"
+       transform="matrix(1.0619485,0,0,0.35948998,710.76882,861.04922)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-4-2-6-2-4-5-1-4-45"
        style="fill:url(#linearGradient37075);fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        x="852.65985"
-       y="944.57239"
+       y="962.57239"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-23-7-5-4-4-5-7-8-0-6-1-0-9-2-0-2-6-2"
        xml:space="preserve"
        style="font-size:5.99072981px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Courier New Bold"><tspan
          x="852.65985"
-         y="944.57239"
+         y="962.57239"
          id="tspan9196-2-3-4-8-5-8-8-1-9-0-0-1-2-1-8-0-9-2-9"
          style="font-size:5.99947977px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class BookLanguage &lt; ActiveRecord::Base</tspan></text>
     <path
-       d="m 875.25412,932.77282 -4.7689,-11.9619 -95.1164,0 -4.7688,11.9619 z"
+       d="m 875.25412,950.77282 -4.7689,-11.9619 -95.1164,0 -4.7688,11.9619 z"
        id="path11360-0-4-6-7-4-4-1-4-9-4-1-7-3-4-3-8-4-0-9-98"
        style="fill:#a1d6ea;fill-opacity:1;stroke:none" />
     <text
        x="776.43195"
-       y="928.6449"
+       y="946.6449"
        id="text5471-5-7-28-8-1-3-7-4-1-1-8-4-1-8-1-8-6-2-1-1-3-8-0-0-7-6-6-7-2-8-2-8-1-4-1-3-4-8-6-8-1-8-3-9-8-41-7-1-9-4-6-4-1-2-8-5-7-5-3-1-3"
        xml:space="preserve"
        style="font-size:6.86963034px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#60221f;fill-opacity:1;stroke:none;font-family:Sans"><tspan
          x="776.43195"
-         y="928.6449"
+         y="946.6449"
          id="tspan4026-3-2-3-1-7-14-4-9-8-1-0-2-4-1-8-3-1-1-6-7-5-6-9-5-4-8-5-8"
          style="font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;fill:#60221f;fill-opacity:1;font-family:Calibri;-inkscape-font-specification:Calibri Oblique">./app/models/<tspan
    id="tspan22075-8-8-9-8-0-6"
    style="font-weight:bold;-inkscape-font-specification:Calibri Bold Oblique">book_language.rb</tspan></tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.71177764,0,0,0.35925472,681.29772,872.71112)"
+       transform="matrix(0.71177764,0,0,0.35925472,681.29772,890.71112)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-0-1-9-5-1-3-6-4-8-7-0-4-1-2-3-3-9"
        style="fill:url(#linearGradient37073);fill-opacity:1;fill-rule:nonzero;stroke:#8f8f8f;stroke-width:0.9265337;stroke-opacity:1" />
     <text
        x="802.47748"
-       y="973.48157"
+       y="991.48157"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-0-0-9-0-2-1-4-6-8"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="802.47748"
-         y="973.48157"
+         y="991.48157"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-8-3-0-7-5-1-5-4-66"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">belongs_to <tspan
    id="tspan22077-6-7-3-0-9-2"
    style="font-weight:bold;-inkscape-font-specification:Courier New Bold">:language</tspan></tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.71177764,0,0,0.35925472,681.29772,857.01572)"
+       transform="matrix(0.71177764,0,0,0.35925472,681.29772,875.01572)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-0-1-9-5-1-3-6-4-8-7-0-4-1-2-3-2-2-3"
        style="fill:url(#linearGradient37071);fill-opacity:1;fill-rule:nonzero;stroke:#8f8f8f;stroke-width:0.9265337;stroke-opacity:1" />
     <text
        x="802.47748"
-       y="957.78625"
+       y="975.78625"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-0-0-9-0-2-1-4-0-9-8"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
          x="802.47748"
-         y="957.78625"
+         y="975.78625"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-8-3-0-7-5-1-5-3-3-2"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New">belongs_to <tspan
    id="tspan22077-6-7-3-0-5-4-6"
    style="font-weight:bold;-inkscape-font-specification:Courier New Bold">:book</tspan></tspan></text>
     <path
-       d="m 476.26486,957.78532 c 36.64747,0 29.30409,16.6418 77.58881,20.8218 36.01778,3.118 78.70089,-5.91 224.64405,-5.91"
+       d="m 476.26486,957.78532 c 36.64747,0 29.30409,16.6418 77.58881,20.8218 36.01778,3.118 78.70089,12.09 224.64405,12.09"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-6-4-8-2-5-3-0-40-2"
        style="fill:none;stroke:#529df4;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <path
-       d="m 477.12718,853.93432 c 166.09266,0 181.37507,103.0674 301.37054,103.0674"
+       d="m 477.12718,853.93432 c 166.09266,0 181.37507,121.0674 301.37054,121.0674"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-6-4-8-2-5-3-0-4-5-7"
        style="fill:none;stroke:#529df4;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <path
@@ -30207,7 +30207,7 @@
    id="tspan22075-8-8-9-3-2-9"
    style="font-weight:bold;-inkscape-font-specification:Calibri Bold Oblique">author_location.rb</tspan></tspan></text>
     <path
-       d="m 825.95982,969.59212 c 9.2758,-3.1875 11.2845,-7.0774 0.4091,-10.516"
+       d="m 825.95982,987.59212 c 9.2758,-3.1875 11.2845,-7.0774 0.4091,-10.516"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-8-0-9-6-5-1-8-5-3-7-8-2"
        style="fill:none;stroke:#529df4;stroke-width:0.56507999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-612);marker-end:url(#Arrow2Mend)" />
     <path
@@ -30296,7 +30296,7 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-9-4-0-8-34-8-0-9-6-5-1-8-5-3-1-6-9"
        style="fill:none;stroke:#529df4;stroke-width:0.56507993;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-612);marker-end:url(#Arrow2Mend)" />
     <path
-       d="m 933.48192,832.42882 0,72.58204 c 0,0 -162.8819,0 -162.8819,0 l 0,-72.58204 z"
+       d="m 933.48192,832.42882 0,89.59352 c 0,0 -162.8819,0 -162.8819,0 l 0,-89.59352 z"
        id="path5035-2-3-2-2-7-4-8-8-8-1-7-3-1-2-2-1-3-9-9-6-5-5-6-6-2-31-1-1-8-0-7-1-1-1-1-3-8-8-3-7-0-1-2-7"
        style="fill:#bdffaf;fill-opacity:1;stroke:none" />
     <path
@@ -30523,40 +30523,40 @@
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">password_digest</tspan></text>
     <text
        x="934.32172"
-       y="935.05908"
+       y="953.05908"
        id="text10319-0-0-4-6-8-8-2-18-5-2-8"
        xml:space="preserve"
        style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.40243901;fill:#ff00ff;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
          x="934.32172"
-         y="935.05908"
+         y="953.05908"
          id="tspan11511-9-4-6-9-6-6-7"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class CreateBookLanguages &lt; ActiveRecord::Migration[5.1]</tspan><tspan
          x="934.32172"
-         y="939.24213"
+         y="957.24213"
          id="tspan11570-0-6-2-1-5-4"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  def change</tspan><tspan
          x="934.32172"
-         y="943.42523"
+         y="961.42523"
          id="tspan11624-5-5-8-2-0"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    create_table :book_languages do |t| </tspan><tspan
          x="934.32172"
-         y="947.60828"
+         y="965.60828"
          id="tspan29982-2-0"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#782121;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      t.integer :book_id</tspan><tspan
          x="934.32172"
-         y="951.79138"
+         y="969.79138"
          id="tspan30090"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#782121;font-family:Courier New;-inkscape-font-specification:Courier New Bold">      t.integer :language_id  </tspan><tspan
          x="934.32172"
-         y="955.97443"
+         y="973.97443"
          id="tspan11633-1-2-6-2-5"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#c83737;font-family:Courier New;-inkscape-font-specification:Courier New Bold">    end </tspan><tspan
          x="934.32172"
-         y="960.15747"
+         y="978.15747"
          id="tspan11572-7-2-0-5-8-9"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  end</tspan><tspan
          x="934.32172"
-         y="964.34058"
+         y="982.34058"
          id="tspan11574-6-0-67-9-8-9"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end</tspan></text>
     <text
@@ -30637,17 +30637,17 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#e9afaf;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end</tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(0.74411642,0,0,0.35948998,775.80471,793.9279)"
+       transform="matrix(0.74411642,0,0,0.35948998,776.96595,799.81097)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-5"
        style="fill:url(#linearGradient37063);fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
-       x="901.88922"
-       y="894.56702"
+       x="903.05048"
+       y="900.45007"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-6"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="901.88922"
-         y="894.56702"
+         x="903.05048"
+         y="900.45007"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-0"
          style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">has_secure_password</tspan></text>
     <text
@@ -30722,36 +30722,36 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /><tspan
          x="936.23761"
          y="893.72369"
-         id="tspan9324"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :username, uniqueness: true</tspan><tspan
+         id="tspan9326"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :username, uniqueness: { case_sensitive: false }</tspan><tspan
          x="936.23761"
          y="897.90674"
-         id="tspan9326"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :email, uniqueness: true  </tspan><tspan
+         id="tspan9231"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :email, uniqueness: { case_sensitive: false } </tspan><tspan
          x="936.23761"
          y="902.08984"
          id="tspan32066-1-2-1-6-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end  </tspan></text>
     <text
        x="936.01215"
-       y="971.61157"
+       y="989.61157"
        id="text10319-0-0-4-6-8-8-2-18-5-25-0-1-1-4-1-2"
        xml:space="preserve"
        style="font-size:3.34645486px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.40243901;fill:#447821;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"><tspan
          x="936.01215"
-         y="971.61157"
+         y="989.61157"
          id="tspan13603"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">class BookLanguage &lt; ActiveRecord::Base</tspan><tspan
          x="936.01215"
-         y="975.79462"
+         y="993.79462"
          id="tspan13382"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  belongs_to :book</tspan><tspan
          x="936.01215"
-         y="979.97772"
+         y="997.97772"
          id="tspan13388"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  belongs_to :language</tspan><tspan
          x="936.01215"
-         y="984.16077"
+         y="1002.1608"
          id="tspan13384"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">end </tspan></text>
     <path
@@ -31729,7 +31729,7 @@
          x="551.80414"
          y="840.90686"
          id="tspan10064"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :title, uniqueness: true</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#447821;font-family:Courier New;-inkscape-font-specification:Courier New Bold">  validates :title, uniqueness: { case_sensitive: false }</tspan><tspan
          x="551.80414"
          y="843.79114"
          id="tspan9320"
@@ -31815,7 +31815,7 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-6-4-8-2-5-3-0-4-7-9-5-6"
        style="fill:none;stroke:#12770c;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <path
-       d="m 547.80593,804.58845 c 94.56758,0 111.84561,107.15057 222.88936,107.15057 258.44631,0 218.4496,56.9869 322.66931,56.9708"
+       d="m 547.80593,804.58845 c 94.56758,0 111.84561,127.15057 222.88936,127.15057 258.44631,0 218.4496,36.9869 322.66931,36.9708"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-46-6-4-8-2-5-3-0-40-2-0-9-1-1"
        style="fill:none;stroke:#12770c;stroke-width:0.56391662;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:none" />
     <path
@@ -32162,7 +32162,7 @@
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-6-19-2-7-8-0-4-1-8"
        style="fill:none;stroke:#ad2d12;stroke-width:0.56391668;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend-52);display:inline" />
     <path
-       d="m 415.91709,718.58112 c -35.54226,20.56521 -64.13606,60.91944 -64.13606,110.28268 0,47.99211 32.23952,76.10956 65.52283,76.10956 173.75859,0 268.32759,60.29946 353.29616,60.29946"
+       d="m 415.91709,718.58112 c -35.54226,20.56521 -64.13606,60.91944 -64.13606,110.28268 0,47.99211 32.23952,76.10956 65.52283,76.10956 173.75859,0 268.32759,78.29946 353.29616,78.29946"
        id="path4602-1-1-9-0-1-4-3-8-2-6-3-1-5-7-9-1-3-3-2-44-2-6-4-9-1-5-4-9-8-8-9-8-96-6-7-7-19-4-4-3-3-2-8-9-6-93-7-8-2-77-8-5-3-0-5-6-9"
        style="fill:none;stroke:#c0c0c0;stroke-width:1.38005471;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Mstart-9-2);marker-end:none;display:inline" />
     <text
@@ -32404,48 +32404,48 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#7f2aff;font-family:Courier New;-inkscape-font-specification:Courier New Bold" /></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(1.2356088,0,0,0.35948998,607.26961,793.9279)"
+       transform="matrix(1.9705069,0,0,0.35948998,506.31588,811.33764)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-5-9"
        style="fill:url(#linearGradient9217);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
     <text
-       x="816.66479"
-       y="894.56708"
+       x="840.2804"
+       y="911.97681"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-6-4"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="816.66479"
-         y="894.56708"
+         x="840.2804"
+         y="911.97681"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-0-8"
-         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :username, uniqueness: true</tspan></text>
+         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :username, uniqueness: { case_sensitive: false }</tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(1.151353,0,0,0.35948998,667.96799,779.89587)"
+       transform="matrix(1.8488041,0,0,0.35948998,522.93555,789.49382)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-5-9-5"
        style="fill:url(#linearGradient9257);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
     <text
-       x="863.0813"
-       y="880.53503"
+       x="836.27075"
+       y="890.133"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-6-4-1"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="863.0813"
-         y="880.53503"
+         x="836.27075"
+         y="890.133"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-0-8-7"
-         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :email, uniqueness: true</tspan></text>
+         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :email, uniqueness: { case_sensitive: false }</tspan></text>
     <path
        d="m 202.45182,278.315 a 32.946171,16.473085 0 1 1 -65.89235,0 32.946171,16.473085 0 1 1 65.89235,0 z"
-       transform="matrix(1.1627914,0,0,0.35948998,259.77114,785.8848)"
+       transform="matrix(1.8446271,0,0,0.35948998,166.66001,785.8848)"
        id="path6547-1-6-8-9-5-7-2-0-8-8-9-6-4-4-4-7-3-7-3-2-0-7-5-9-7"
        style="fill:url(#linearGradient9297);fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline" />
     <text
-       x="456.82336"
+       x="479.28723"
        y="886.52399"
        id="text3154-1-3-6-9-5-0-9-1-16-5-8-9-1-6-1-5-3-1-4-1-2-1-4-7-0-8-1-7-1-5-0-6-0-98-6-0-8-54-1-4-1-4-9-8-0-4-8-8-4-5-4-7-6-7-6-4-6"
        xml:space="preserve"
        style="font-size:3.52311921px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Calibri;-inkscape-font-specification:Calibri"><tspan
-         x="456.82336"
+         x="479.28723"
          y="886.52399"
          id="tspan9196-2-7-2-5-0-4-3-9-2-3-5-1-83-2-5-7-7-8-3-4-9-0-4-3-6-3-0-8-1"
-         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :title, uniqueness: true</tspan></text>
+         style="font-size:3.52826548px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;font-family:Courier New;-inkscape-font-specification:Courier New Bold">validates :title, uniqueness: { case_sensitive: false }</tspan></text>
   </g>
 </svg>

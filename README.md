@@ -6,7 +6,7 @@
 
 ## Cool Graphics
 
-<p class='util--hide'> A process flow illustration showing the object models and their relations is available in the programs main directory (in SVG format) as well as in png format <a href='https://i.imgur.com/1xYHSc0.png'>here</a> on this readme file.</p>
+<p class='util--hide'> A process flow illustration showing the object models and their relations is available in the programs main directory (in SVG format) as well as in png format <a href='https://i.imgur.com/dFMmiF2.png'>here</a> on this readme file.</p>
 
 ## About This Program
 
