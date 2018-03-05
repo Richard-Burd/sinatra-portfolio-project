@@ -9,7 +9,7 @@ class Book < ActiveRecord::Base
   has_many :book_languages
   has_many :languages, through: :book_languages
 
-  validates :title, uniqueness: true
+  validates :title, uniqueness: { case_sensitive: false }
   # This supposes a book with no publication date was
   # written by its author in the last quarter of her
   # or his lifetime

@@ -29,7 +29,7 @@ class BooksController < ApplicationController
       end
       @book.unknown_author
 
-      if @book.save
+      if @book.save #<= This is checking to see if the "validates :title, uniqueness: true" is true or not
         params[:book_languages].each do |details|
           BookLanguage.create(details)
         end
@@ -41,7 +41,7 @@ class BooksController < ApplicationController
           end
         end
 
-      #     Ok, so this 'genre' thingy is just the same as the 'language' one above.
+        # Ok, so this 'genre' thingy is just the same as the 'language' one above.
         params[:book_genres].each do |details|
           BookGenre.create(details)
         end
