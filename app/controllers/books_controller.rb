@@ -18,8 +18,12 @@ class BooksController < ApplicationController
 
   post '/books' do
     if logged_in?
-      @book = current_user.books.build(title: params[:title], topics: params[:topics],
-      year_published: params[:year_published], author_id: params[:author_id])
+      @book = current_user.books.build(
+        title: params[:title],
+        topics: params[:topics],
+        year_published: params[:year_published],
+        author_id: params[:author_id]
+        )
       if @book.year_published == ""
         @book.year_published = nil
       end
