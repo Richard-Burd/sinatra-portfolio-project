@@ -18,18 +18,17 @@ class BooksController < ApplicationController
 
   post '/books' do
     if logged_in?
-      @book = current_user.books.build(
-        title: params[:title],
-        topics: params[:topics],
-        year_published: params[:year_published],
-        author_id: params[:author_id]
-        )
+      @book = current_user.books.build(params[:book])
+
       if @book.year_published == ""
         @book.year_published = nil
       end
       @book.unknown_author
 
-      if @book.save #<= This is checking to see if the "validates :title, uniqueness: true" is true or not
+      # This is checking to see if the:
+      # validates :title, uniqueness: { case_sensitive: false }
+      # ...is true or not
+      if @book.save
         params[:book_languages].each do |details|
           BookLanguage.create(details)
         end

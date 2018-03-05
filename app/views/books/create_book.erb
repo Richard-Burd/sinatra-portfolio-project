@@ -10,13 +10,13 @@
 
 <form action="/books" method="POST">
   <label>Book Title:</label>
-  <input type="text" name="title" id="book_title">
+  <input type="text" name="book[title]" id="book_title">
   <br></br>
   <label>Brief description of what the book is about:</label>
-  <input type="text" name="topics" id="book_topics">
+  <input type="text" name="book[topics]" id="book_topics">
   <br></br>
   <label>Year the book was published (negative number for b.c.e, positive for c.e.) leave blank if unknown:</label>
-  <input type="text" name="year_published" id="book_year_published">
+  <input type="text" name="book[year_published]" id="book_year_published">
   <br></br>
 
 <h3> Select from the list of authors below or <a href="/authors/new">create a new author for this book first, before you create the new book</a></h3>
@@ -25,7 +25,7 @@
   <ol style="font-size:120%; color: grey">
     <%myarray.each.each do |author|%>
       <% if !author.name.include?("- Author Unknown") %>
-        <li><b><input type="checkbox" name="author_id" id="<%= author.name %>" value="<%=author.id%>">  <%=author.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <li><b><input type="checkbox" name="book[author_id]" id="<%= author.name %>" value="<%=author.id%>">  <%=author.name%>&emsp;&emsp;&emsp;</input></b></li>
       <%end%>
     <%end%>
   </ol>
