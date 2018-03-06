@@ -63,7 +63,7 @@ Location.create(city: "The Hague", region: "Low Countries", polity: "Dutch Repub
 AuthorLocation.create(author_id: 13, location_id: 18)
 
 Author.create(name: "Rene Descartes", subjects: "Metaphysics, epistemology, mathematics, physics, cosmology", birth_date: 1596, death_date: 1650, user_id: 1)
-Location.create(city: "Amsterdam", region: "Centre-Val de Loire", polity: "Dutch Republic", today_part_of: "France")
+Location.create(city: "Amsterdam", region: "Centre-Val de Loire", polity: "Dutch Republic", today_part_of: "Holland")
 AuthorLocation.create(author_id: 14, location_id: 19)
 Location.create(city: "Stockholm", region: "Södermanland", polity: "Swedish Empire", today_part_of: "Sweden")
 AuthorLocation.create(author_id: 14, location_id: 20)
