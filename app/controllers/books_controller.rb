@@ -25,32 +25,19 @@ class BooksController < ApplicationController
       end
       @book.unknown_author
 
-      # This is checking to see if the:
-      # validates :title, uniqueness: { case_sensitive: false }
-      # ...is true or not
-      if @book.save
-        params[:book_languages].each do |details|
-          BookLanguage.create(details)
+      if @book.save # This is checking to see if the <<<validates :title, uniqueness: { case_sensitive: false }>> ...is true or not
+        params[:book_languages].each do |language|
+          book_language = BookLanguage.new(language)
+          book_language.book_id = @book.id #<= this can only happen if the <<@book>> saves!
+          book_language.save
         end
 
-        BookLanguage.all.each do |booklanguage|
-          if booklanguage.book_id == nil
-            booklanguage.book_id = Book.last.id
-            booklanguage.save
-          end
+        params[:book_genres].each do |genre|
+          book_genre = BookGenre.new(genre)
+          book_genre.book_id = @book.id #<= this can only happen if the <<@book>> saves!
+          book_genre.save
         end
 
-        # Ok, so this 'genre' thingy is just the same as the 'language' one above.
-        params[:book_genres].each do |details|
-          BookGenre.create(details)
-        end
-
-        BookGenre.all.each do |bookgenre|
-          if bookgenre.book_id == nil
-            bookgenre.book_id = Book.last.id
-            bookgenre.save
-          end
-        end
         redirect to "/books"
       else
         flash[:message_for_new_book_page] = "Sorry, but that book title is already taken, please choose another title."
