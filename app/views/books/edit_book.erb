@@ -34,9 +34,9 @@
   <ol style="font-size:120%; color: grey">
     <%lang_array.each.each do |language| language_id = language.id %>
       <% if @book.languages.include?(language) %>
-        <li><b><input type="checkbox" name="booklanguage[langs][][language_id]" id="<%= language.name %>" value="<%=language.id%>" checked> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <li><b><input type="checkbox" name="book[language_ids][]" id="<%= language.name %>" value="<%=language.id%>" checked> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
       <% else %>
-        <li><b><input type="checkbox" name="booklanguage[langs][][language_id]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <li><b><input type="checkbox" name="book[language_ids][]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
       <%end%>
     <%end%>
   </ol>
@@ -47,9 +47,9 @@
   <ol style="font-size:120%; color: grey">
     <% gen_array.each.each do |genre| genre_id = genre.id %>
       <% if @book.genres.include?(genre) %>
-        <li><b><input type="checkbox" name="bookgenre[gens][][genre_id]" id="<%= genre.name %>" value="<%=genre.id%>" checked> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <li><b><input type="checkbox" name="book[genre_ids][]" id="<%= genre.name %>" value="<%=genre.id%>" checked> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
       <% else %>
-        <li><b><input type="checkbox" name="bookgenre[gens][][genre_id]" id="<%= genre.name %>" value="<%=genre.id%>"> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <li><b><input type="checkbox" name="book[genre_ids][]" id="<%= genre.name %>" value="<%=genre.id%>"> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
       <%end%>
     <%end%>
   </ol>

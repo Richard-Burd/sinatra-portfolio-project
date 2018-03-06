@@ -36,7 +36,7 @@
 <% lang_array = @languages.sort_by {|lang_obj| lang_obj.name} %>
   <ol style="font-size:120%; color: grey">
     <%lang_array.each.each do |language| language_id = language.id %>
-        <li><b><input type="checkbox" name="book_languages[][language_id]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <li><b><input type="checkbox" name="book[language_ids][]" id="<%= language.name %>" value="<%=language.id%>"> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
     <%end%>
   </ol>
   <br></br>
@@ -45,7 +45,7 @@
 <% gen_array = @genres.sort_by {|gen_obj| gen_obj.name} %>
   <ol style="font-size:120%; color: grey">
     <% gen_array.each.each do |genre| genre_id = genre.id %>
-        <li><b><input type="checkbox" name="book_genres[][genre_id]" id="<%= genre.name %>" value="<%=genre.id%>"> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
+        <li><b><input type="checkbox" name="book[genre_ids][]" id="<%= genre.name %>" value="<%=genre.id%>"> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
     <%end%>
   </ol>
 
@@ -53,10 +53,3 @@
 <br></br>
   <input type="submit" value="Create Book">
 </form>
-
-
-
-<!--
-This is where you'll see how to insert the checkboxes for existing Authors:
-https://github.com/Richard-Burd/sinatra-complex-forms-associations-v-000/blob/solution/app/views/pets/new.erb
--->
