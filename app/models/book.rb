@@ -27,21 +27,4 @@ class Book < ActiveRecord::Base
       "Probably published between #{display_date_as_bce_or_ce(self.author.birth_date)} and #{display_date_as_bce_or_ce(self.author.death_date)}"
     end
   end
-
-  # These methods below won't work because although it's the book that wants the method inside it because it is fundementally about the book,
-  # a method in the Book class cannot reach into (and change) the Author class.  This method needs to be in the "Object" class or a module.
-
-  #def author_unknown
-  #  if self.author.name.include?("Unknown") || self.author.name.include?("unknown") || self.author.name == nil
-  #    self.author.find_by(name: "Unknown") || self.author.find_by(name: "unknown")
-  #    self.author.name = self.title + " - " "Author Unknown"
-  #    self.save
-  #  end
-  #end
-
-  #def author_unknown
-  #  if self.author.name.include?("Unknown") || self.author.name.include?("unknown") || self.author.name == nil
-  #    self.author.name << self.title.to_s + " - " "Author Unknown"
-  #  end
-  #end
 end

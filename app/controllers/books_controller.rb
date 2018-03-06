@@ -19,10 +19,6 @@ class BooksController < ApplicationController
   post '/books' do
     if logged_in?
       @book = current_user.books.build(params[:book])
-
-      if @book.year_published == ""
-        @book.year_published = nil
-      end
       @book.unknown_author
 
       if @book.save # This is checking to see if the <<<validates :title, uniqueness: { case_sensitive: false }>> ...is true or not
@@ -76,9 +72,6 @@ class BooksController < ApplicationController
         redirect to '/books/new' #<= You can't redirect to the '/books/:slugtitle/edit for some reason...even if you are logged in as the user that created it.'
       end
 
-      if @book.year_published == ""
-        @book.year_published = nil #<= so this activates the <<hypothetical_date_of_publication>> method so if you don't know when the book was published, it will estimate that for you.
-      end
       @book.unknown_author         #<= when you create a new author named "Unknown" and then you list
 
       if @book && @book.user == current_user # is this the same as: @book.user_id == current_user.id -?
