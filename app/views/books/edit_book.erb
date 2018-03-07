@@ -32,7 +32,7 @@
 <h3 style="font-size:120%; color: grey"> Isn't this cool...I'm using nested a dynamic nested form!! </h3>
 <% lang_array = @languages.sort_by {|lang_obj| lang_obj.name} %>
   <ol style="font-size:120%; color: grey">
-    <%lang_array.each.each do |language| language_id = language.id %>
+    <%lang_array.each.each do |language| %>
       <% if @book.languages.include?(language) %>
         <li><b><input type="checkbox" name="book[language_ids][]" id="<%= language.name %>" value="<%=language.id%>" checked> <%=language.name%>&emsp;&emsp;&emsp;</input></b></li>
       <% else %>
@@ -45,7 +45,7 @@
 <h3>Select from the list of Genres below</h3>
 <% gen_array = @genres.sort_by {|gen_obj| gen_obj.name} %>
   <ol style="font-size:120%; color: grey">
-    <% gen_array.each.each do |genre| genre_id = genre.id %>
+    <% gen_array.each.each do |genre| %>
       <% if @book.genres.include?(genre) %>
         <li><b><input type="checkbox" name="book[genre_ids][]" id="<%= genre.name %>" value="<%=genre.id%>" checked> <%=genre.name%>&emsp;&emsp;&emsp;</input></b></li>
       <% else %>
