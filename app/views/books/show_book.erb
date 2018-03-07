@@ -17,9 +17,8 @@
 <br></br>
 <h3>This book was originally written in the following <a href="/languages">language(s):</a>
     <ul>
-      <% langs = @book.languages.map {|logos| logos.name} %>
-      <% langs.each do |lashen| %><br>
-          <li style="font-size:80%"><%= lashen %></li>
+      <% @book.languages.each do |language| %><br>
+          <li style="font-size:80%"><%= language.name %></li>
       <% end %>
     </ul>
 </h3>
