@@ -18,13 +18,15 @@ class BooksController < ApplicationController
 
   post '/books' do
     if logged_in?
-      @book = current_user.books.build(params[:book])
-      @book.unknown_author
-      @book.save
-      redirect to "/books"
-    else
-      flash[:message_for_new_book_page] = "Sorry, but that book title is already taken, please choose another title."
-      redirect to "/books/new"
+      if Book.new(params[:book]).valid?
+        @book = current_user.books.build(params[:book])
+        @book.unknown_author
+        @book.save
+        redirect to "/books"
+      else
+        flash[:message_for_new_book_page] = "Sorry, but that book title is already taken, please choose another title."
+        redirect to "/books/new"
+      end
     end
   end
 
