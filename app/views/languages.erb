@@ -1,8 +1,9 @@
 <h1> Original Languages of the Books in the Catalog </h1>
 <h3>
-  <ol>
-    <% Language.all.each do |language| %>
-      <li style="font-size:110%"><%= language.name %></li>
+  <ul>
+    <% myarray = @languages.sort_by {|obj| obj.name} %>
+      <% myarray.each do |language| %>
+      <li style="font-size:110%"> <%= language.name %></li>
         <ul>
           <% language.books.each do |book| %>
             <li style="font-size:90%"><a href="/books/<%=book.slugtitle%>"><%= book.title %></a></li>
@@ -10,5 +11,5 @@
           <br>
         </ul>
     <% end %>
-  </ol>
+  </ul>
 </h3>

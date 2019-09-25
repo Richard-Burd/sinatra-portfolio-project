@@ -4,6 +4,8 @@ class BooksController < ApplicationController
     erb :'books/books'
   end
 
+  # This request needs to go before <<get '/books/:slugtitle' do>> request.
+  # Otherwise, the app will think that the "new" segment below is a dynamic (:slugtitle) route
   get '/books/new' do
     @authors = Author.all # this is required to list out all existing authors
     @genres = Genre.all # this is required to list out all existing genres
@@ -17,6 +19,8 @@ class BooksController < ApplicationController
   end
 
   post '/books' do
+    # This will generate a Sinatra error page and show the hash being passed:
+    # raise params.inspect
     if logged_in?
       if Book.new(params[:book]).valid?                 # 'valid?' is an ActiveRecord method
         @book = current_user.books.build(params[:book]) # ActiveRecord "build" method will not save @book like "create" method
@@ -52,6 +56,7 @@ class BooksController < ApplicationController
     end
   end
 
+  # patch requests are used to send user edits
   patch '/books/:slugtitle' do
     if logged_in?
       @book = Book.find_by_slugtitle(params[:slugtitle])

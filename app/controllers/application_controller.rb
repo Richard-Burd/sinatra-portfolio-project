@@ -24,6 +24,17 @@ class ApplicationController < Sinatra::Base
   end
 
   helpers do
+    # all ruby objects will now inherit from anything defined in this Object class
+    # class Object
+    #   def true?
+    #     !!self
+    #   end
+    # end
+    # now I can do the following:
+    # current_user.true?
+    # ...and I will get a return value of "true" if there is a current user
+    # otherwise I will have to use the double negative: !!
+    # as is shown below:
     def logged_in?
       !!current_user
     end
