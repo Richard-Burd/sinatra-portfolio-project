@@ -1,6 +1,6 @@
 <h1> Genres of Books in the Catalog </h1>
 <h3>
-  <ol>
+  <ul>
     <% gen_array = @genres.sort_by {|obj| obj.name} %>
       <% gen_array.each do |genre| %>
         <% if genre.books.count > 0 %>
@@ -13,5 +13,5 @@
         <br>
       </ul>
     <% end %>
-  </ol>
+  </ul>
 </h3>

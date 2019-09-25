@@ -3,14 +3,14 @@
 <br>
 <h3>Bibliography:</h3>
     <br>
-  <ol style="font-size:160%">
+  <ul style="font-size:160%">
     <% myarray = @author.books.sort_by {|obj| obj.title} %>
       <% myarray.each do |book| %>
       <li><b><a href="/books/<%=book.slugtitle%>"><%= book.title %></a></b></li>
         <ul style="font-size:80%"><%= book.topics %></ul>
       <br>
       <% end %>
-  </ol>
+  </ul>
 
   <h3>This author lived during the following <a href="/periods">historical period(s):</a>
       <ul>

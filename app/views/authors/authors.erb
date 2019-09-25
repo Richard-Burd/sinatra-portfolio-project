@@ -1,16 +1,22 @@
-<h1>Authors</h1>
-<br>
-  <ol style="font-size:140%">
-    <% myarray = @authors.sort_by {|obj| obj.name} %>
-      <% myarray.each do |author| %>
-      <li><b><a href="/authors/<%=author.slug%>"><%= author.name %></a></b> <%= " lived from " + display_date_as_bce_or_ce(author.birth_date) + " to " + display_date_as_bce_or_ce(author.death_date) %></li>
-        <% if author.subjects == nil && author.books.count > 1 %>
-          <ul style="font-size:80%">No subject data for this author is currently available</ul>
-        <% elsif author.subjects == nil && author.books.count == 1 %>
-          <ul style="font-size:80%">About this book:  <%= author.books[0].topics %></ul>
-        <% else %>
-          <ul style="font-size:80%">Subjects covered:  <%= author.subjects %></ul>
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- this CSS was added because the ordered list was not counting up; each item had a "1." next to it. -->
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
+  <h1>Authors</h1>
+    <ol style="font-size:140%">
+      <% myarray = @authors.sort_by {|obj| obj.name} %>
+        <% myarray.each do |author| %>
+        <li><b><a href="/authors/<%=author.slug%>"><%= author.name %></a></b> <%= " lived from " + display_date_as_bce_or_ce(author.birth_date) + " to " + display_date_as_bce_or_ce(author.death_date) %></li>
+          <% if author.subjects == nil && author.books.count > 1 %>
+            <ul style="font-size:80%">No subject data for this author is currently available</ul>
+          <% elsif author.subjects == nil && author.books.count == 1 %>
+            <ul style="font-size:80%">About this book:  <%= author.books[0].topics %></ul>
+          <% else %>
+            <ul style="font-size:80%">Subjects covered:  <%= author.subjects %></ul>
+          <% end %>
+        <br>
         <% end %>
-      <br>
-      <% end %>
-  </ol>
+    </ol>
+  </body>
+</html>

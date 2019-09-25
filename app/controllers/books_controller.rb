@@ -18,9 +18,9 @@ class BooksController < ApplicationController
 
   post '/books' do
     if logged_in?
-      if Book.new(params[:book]).valid?
-        @book = current_user.books.build(params[:book])
-        @book.unknown_author
+      if Book.new(params[:book]).valid?                 # 'valid?' is an ActiveRecord method
+        @book = current_user.books.build(params[:book]) # ActiveRecord "build" method will not save @book like "create" method
+        @book.unknown_author                            # We need this operation between 'build' and 'save'
         @book.save
         redirect to "/books"
       else
