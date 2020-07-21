@@ -15,7 +15,13 @@ This project uses the [Sinatra](http://sinatrarb.com/) library, a _microframewor
 
 ## Installation instructions
 
-Clone this repo into your local environment and run `bundle install`.  After that, run `shotgun` to run your server...copy & paste the domain into a web browser URL and go from there.
+Clone this repo into your local environment and run the following commands:
+
+1. `$ gem install bundler` ... to install [Bundler](https://bundler.io/)
+1. `$ bundle install` ... to install the [Ruby Gems](https://rubygems.org/).
+2. `$ shotgun` ... to boot up your server
+
+Next, copy the domain (displayed in the command prompt)  and paste it into a web browser and you should see the homepage.
 
 ## Project File Structure
 ```
